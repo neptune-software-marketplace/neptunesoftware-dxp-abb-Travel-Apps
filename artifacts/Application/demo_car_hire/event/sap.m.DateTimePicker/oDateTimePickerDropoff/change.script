@@ -1,0 +1,2 @@
+oDateTimePickerDropoff.setValueState(sap.ui.core.ValueState.None);
+oDateTimePickerPickup.setValueState(sap.ui.core.ValueState.None);

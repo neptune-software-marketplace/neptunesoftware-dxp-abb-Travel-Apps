@@ -1,0 +1,11 @@
+var options = {
+    parameters: {
+        "where": JSON.stringify({locationFrom: oInputSFFrom.getValue(), locationTo: oInputSFTo.getValue()}), // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+
+apioAPIAmadeusLocationsFlights();

@@ -1,0 +1,21 @@
+//console.log("APIGetConfigDataAvis Success (Data in model = ConfigDataAvis)");
+//After loading config data into multiModel from table, using server script, call API to get token with the data
+dataHost = getConfigValueAvis("x-rapidapi-host");
+dataKey = getConfigValueAvis("x-rapidapi-key");
+dataClientID = getConfigValueAvis("AvisClientId");
+dataClientSecret = getConfigValueAvis("AvisClientSecret");
+//console.log("dataClientID: ", dataClientID, "dataClientSecret: ", dataClientSecret);
+
+//Call token api and store in multiModelSearchToken
+
+var options = {
+    headers: {
+        "client_id": dataClientID,
+        "client_secret": dataClientSecret
+    }
+};
+
+console.log("Calling apioAPIGetToken...");
+console.log(options);
+
+apioAPIGetToken(options);

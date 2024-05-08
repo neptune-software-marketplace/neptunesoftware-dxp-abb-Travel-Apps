@@ -1,0 +1,2193 @@
+[
+	{
+		"id": "ba996717-dcda-4803-9a20-dcbf6e544111",
+		"createdAt": "1692979162465",
+		"updatedAt": "1692979178833",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"where": "LON",
+		"carsLocationAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:58:32Z",
+				"request_errors": 1,
+				"errors": [
+					{
+						"code": "609",
+						"message": "Not Found",
+						"reason": "Location details are not found for the given search criteria.",
+						"details": "Payless failed to fulfill the request.Proximity/Keyword search details are not available for the given input."
+					}
+				],
+				"success": [
+					{
+						"code": "206",
+						"message": "Partial Content",
+						"details": "The resource has returned a partial response."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "6ad349ab-3599-47b7-a3f0-cbc1ae1d0a1f"
+			},
+			"locations": [
+				{
+					"brand": "Avis",
+					"code": "Z86",
+					"name": "Prestige Heathrow Airport T2",
+					"telephone": "(44) 020 7591 0444",
+					"hours": "Sun - Sat 6:30 AM - 10:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Central Heathrow Location",
+						"address_line_2": "Northrop Road",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "TW6 2QA",
+						"country_code": "GB",
+						"lat": "51.5064",
+						"long": "-0.1272"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "V1N",
+					"name": "Prestige Victoria",
+					"telephone": "(44) 02075 910444",
+					"hours": "Sun 8:00 AM - 4:00 PM; Mon - Thu 8:00 AM - 6:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 4:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "10-12 Semley Place",
+						"address_line_2": "Victoria",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW1W9QL",
+						"country_code": "GB",
+						"lat": "51.492",
+						"long": "-0.1497"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "K9N",
+					"name": "London Victoria Coach & Rail",
+					"telephone": "(44) 03445448886",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "10-12 Semley Place",
+						"address_line_2": "Victoria",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW1W 9QL",
+						"country_code": "GB",
+						"lat": "51.49199",
+						"long": "-0.149772"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "LO6",
+					"name": "Euston St Pancras",
+					"telephone": "(44) 03445446061",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "88 Eversholt St",
+						"address_line_2": "Euston",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "NW1 1BP",
+						"country_code": "GB",
+						"lat": "51.530167",
+						"long": "-0.133799"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "E1B",
+					"name": "Prestige Euston",
+					"telephone": "(44) 02075 910444",
+					"hours": "Sun 8:00 AM - 8:00 PM; Mon - Thu 8:00 AM - 7:00 PM; Fri 8:00 AM - 8:00 PM; Sat 8:00 AM - 4:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "88 Eversholt St",
+						"address_line_2": "Euston",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "NW1 1BP",
+						"country_code": "GB",
+						"lat": "51.5303",
+						"long": "-0.1339"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "G02",
+					"name": "London Battersea",
+					"telephone": "(44) 03445447033",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "145 Battersea Park Road",
+						"address_line_2": "Battersea",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW8 4BX",
+						"country_code": "GB",
+						"lat": "51.47771",
+						"long": "-0.14548"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "LXL",
+					"name": "Prestige Kensington & Chelsea",
+					"telephone": "(44) 02075 910444",
+					"hours": "Sun 10:00 AM - 4:00 PM; Mon - Fri 9:00 AM - 5:00 PM; Sat 8:30 AM - 12:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "18 Petersham Mews",
+						"address_line_2": "NA",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW7 5NR",
+						"country_code": "GB",
+						"lat": "51.49728",
+						"long": "-0.182705"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "LCY",
+					"name": "London City Airport",
+					"telephone": "(44) 03445446030",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon 8:00 AM - 6:00 PM; Tue - Wed 8:00 AM - 4:00 PM; Thu 8:00 AM - 6:00 PM; Fri 8:00 AM - 8:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Terminal Building",
+						"address_line_2": "The Royal Docks",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "E16 2PX",
+						"country_code": "GB",
+						"lat": "51.503652",
+						"long": "0.049589"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "AS6",
+					"name": "London Heathrow Airport T3,4 Prestige",
+					"telephone": "(44) 020 7591 0444",
+					"hours": "Sun - Sat open 24 hrs",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Northrop Road",
+						"address_line_2": "NA",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "TW6 2QA",
+						"country_code": "GB",
+						"lat": "51.47989",
+						"long": "-0.431272"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "LHR",
+					"name": "London Heathrow Airport T234",
+					"telephone": "(44) 03445446000",
+					"hours": "Sun - Sat open 24 hrs",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Central Heathrow Loc",
+						"address_line_2": "Northrop Rd",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "TW6 2QA",
+						"country_code": "GB",
+						"lat": "51.47989",
+						"long": "-0.431272"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "LON",
+					"name": "London Heathrow Airport T5",
+					"telephone": "(44) 03445446000",
+					"hours": "Sun - Sat 4:45 AM - 12:00 AM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Holiday Inn Heathrow 276 Bath Road",
+						"address_line_2": "Heathrow Apt T5 Bus stop 25",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "UB7 0DQ",
+						"country_code": "GB",
+						"lat": "51.48263",
+						"long": "-0.4611"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "RT1",
+					"name": "London Heathrow Apt T5 Prestige",
+					"telephone": "(44) 020 7591 0444",
+					"hours": "Sun - Sat 5:00 AM - 12:00 AM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "276 Bath Road",
+						"address_line_2": "Holiday Inn",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "UB7 0DQ",
+						"country_code": "GB",
+						"lat": "51.48178",
+						"long": "-0.46147"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "LGW",
+					"name": "London Gatwick Airport",
+					"telephone": "(44) 03445446001",
+					"hours": "Sun 8:00 AM - 9:00 PM; Mon - Fri 7:00 AM - 10:00 PM; Sat 7:00 AM - 3:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Gatwick South Terminal",
+						"address_line_2": "NA",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "RH6 0NW",
+						"country_code": "GB",
+						"lat": "51.155669",
+						"long": "-0.162896"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "Y1C",
+					"name": "Victoria",
+					"telephone": "+44(0)3445446140",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "10-12 Semley Place",
+						"address_line_2": "Victoria",
+						"city": "London Victoria",
+						"state_name": "XX",
+						"postal_code": "SW1W 9QL",
+						"country_code": "GB",
+						"lat": "51.49199",
+						"long": "-0.149772"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "E9W",
+					"name": "Euston/St. Pancras",
+					"telephone": "+44(0)344 544 8751",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "88 Eversholt Street",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "NW1 1BP",
+						"country_code": "GB",
+						"lat": "51.530167",
+						"long": "-0.133799"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "TG5",
+					"name": "Battersea, Gb",
+					"telephone": "+44(0)3445447033",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "145 Battersea Park Rd",
+						"address_line_2": "Battersea",
+						"city": "London Battersea",
+						"state_name": "XX",
+						"postal_code": "SW8 4BX",
+						"country_code": "GB",
+						"lat": "51.477648",
+						"long": "-0.145354"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "U13",
+					"name": "Putney Wandsworth",
+					"telephone": "(44) 208-7805800",
+					"hours": "Sun 8:00 PM - 12:00 AM; Mon - Fri 8:30 AM - 5:30 PM; Sat 8:30 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "152 Upper Richmond Rd",
+						"city": "Putney Wandsworth",
+						"state_name": "XX",
+						"postal_code": "SW15 2SW",
+						"country_code": "GB",
+						"lat": "51.460202",
+						"long": "-0.213604"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "LCY",
+					"name": "London City Airport",
+					"telephone": "+44(0)3445444662",
+					"hours": "Sun 8:00 AM - 1:00 PM; Mon 8:00 AM - 6:00 PM; Tue - Wed 8:00 AM - 4:00 PM; Thu 8:00 AM - 6:00 PM; Fri 8:00 AM - 8:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "The Royal Docks",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "E16 2PX",
+						"country_code": "GB",
+						"lat": "51.503652",
+						"long": "0.049589"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "LHR",
+					"name": "Lhr Heathrow Airport T234",
+					"telephone": "+44(0)3445444600",
+					"hours": "Sun - Sat open 24 hrs",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Central Heathrow Location",
+						"address_line_2": "Northrop Rd",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "TW6 2QA",
+						"country_code": "GB",
+						"lat": "51.47989",
+						"long": "-0.431272"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "L3H",
+					"name": "Lhr Heathrow Airport T5",
+					"telephone": "+44 03445446000",
+					"hours": "Sun - Sat 4:45 AM - 12:00 AM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Holiday Inn Htrw 276 Bath Road",
+						"address_line_2": "Heathrow Apt T5 Bus Stop 25",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "TW6 2GA",
+						"country_code": "GB",
+						"lat": "51.471359",
+						"long": "-0.488076"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "A1P",
+					"name": "Bd Gatwick Lt Gb",
+					"telephone": "0344 544 6001",
+					"hours": "Sun - Tue 8:00 AM - 8:00 PM; Wed - Thu 8:00 AM - 5:00 PM; Fri 8:00 AM - 8:00 PM; Sat 7:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Car Rental Centre, S Terminal",
+						"address_line_2": "Gatwick Airport",
+						"city": "Surrey",
+						"state_name": "XX",
+						"postal_code": "RH6 0NP",
+						"country_code": "GB",
+						"lat": "51.1609",
+						"long": "-0.1777"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "LGW",
+					"name": "Gatwick Airport-London",
+					"telephone": "+44(0)3445446001",
+					"hours": "Sun 8:00 AM - 9:00 PM; Mon - Fri 7:00 AM - 10:00 PM; Sat 7:00 AM - 3:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "South Terminal",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "RH6 0NW",
+						"country_code": "GB",
+						"lat": "51.155669",
+						"long": "-0.162896"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				}
+			]
+		}
+	},
+	{
+		"id": "5311741c-9216-498f-97f7-4836d46debc1",
+		"createdAt": "1692975098323",
+		"updatedAt": "1692975098323",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"where": "PAR",
+		"carsLocationAvailable": {
+			"status": {
+				"request_time": "2023-08-25T13:43:24Z",
+				"request_errors": 1,
+				"errors": [
+					{
+						"code": "609",
+						"message": "Not Found",
+						"reason": "Location details are not found for the given search criteria.",
+						"details": "Payless failed to fulfill the request.Proximity/Keyword search details are not available for the given input."
+					}
+				],
+				"success": [
+					{
+						"code": "206",
+						"message": "Partial Content",
+						"details": "The resource has returned a partial response."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "3c37ec2c-3b85-41db-82d8-1349ec61d361"
+			},
+			"locations": [
+				{
+					"brand": "Avis",
+					"code": "PAR",
+					"name": "Paris Madeleine",
+					"telephone": "(33) 1 83 18 00 58",
+					"hours": "Mon - Fri 8:00 AM - 4:00 PM; Sat 8:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "21 Place de la Madeleine",
+						"address_line_2": "Niveau - 1 Parking Saemes",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75008",
+						"country_code": "FR",
+						"lat": "48.871171",
+						"long": "2.324082"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "AE2",
+					"name": "Paris Gare Montparnasse",
+					"telephone": "(33) 8 20 00 61 00",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Hall 2 Pasteur",
+						"address_line_2": "5 Place Des Martyrs",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75014",
+						"country_code": "FR",
+						"lat": "48.838741",
+						"long": "2.317742"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "PS6",
+					"name": "Paris Monceau Dtn",
+					"telephone": "(33) 1 47 66 55 80",
+					"hours": "Mon - Fri 8:00 AM - 6:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "34 Ave de Villiers 17th",
+						"address_line_2": "Park Monceau",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75017",
+						"country_code": "FR",
+						"lat": "48.882246",
+						"long": "2.31211"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "LM3",
+					"name": "Paris Lourmel Dtn",
+					"telephone": "(33) 1 45 57 53 57",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 1:00 PM - 6:30 PM; Sat 8:00 AM - 1:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "105 Rue De Lourmel 15th",
+						"address_line_2": "NA",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR",
+						"lat": "48.843138",
+						"long": "2.286363"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "AB9",
+					"name": "Paris Rail Station Est",
+					"telephone": "(33) 820611626",
+					"hours": "Mon - Fri 7:00 AM - 12:00 PM and 12:30 PM - 2:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "De Lest, Effia P2 Niv -1",
+						"address_line_2": "Place Du 8 Mai 1945",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR",
+						"lat": "48.87625",
+						"long": "2.35964"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "AE4",
+					"name": "Paris Rail Station Du Nord",
+					"telephone": "(33) 8 20 61 16 24",
+					"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "03 Rue de Compiegne",
+						"address_line_2": "112 Rue de Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR",
+						"lat": "48.880945",
+						"long": "2.355334"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "IL5",
+					"name": "Issy Mlx Downtown",
+					"telephone": "(33) 1 46 48 68 43",
+					"hours": "Mon 8:00 AM - 1:00 PM and 2:00 PM - 7:00 PM; Tue - Thu 8:00 AM - 1:00 PM and 2:00 PM - 6:00 PM; Fri 8:00 AM - 1:00 PM and 2:00 PM - 7:00 PM; Sat 8:30 AM - 12:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "7 Bis Rue Ernest Renan",
+						"address_line_2": "Porte de Versailles",
+						"city": "Issy Les Moulineaux",
+						"state_name": "XX",
+						"postal_code": "92130",
+						"country_code": "FR",
+						"lat": "48.829618",
+						"long": "2.283852"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "AC6",
+					"name": "Paris Lyon Railway Station",
+					"telephone": "(33) 8 20 61 16 27",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Paris Lyon Railway Station",
+						"address_line_2": "Niv Min 1 Parking Mediterranee",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75012",
+						"country_code": "FR",
+						"lat": "48.844658",
+						"long": "2.373427"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "PA3",
+					"name": "Neuilly Sur Seine",
+					"telephone": "(33) 8 20 61 16 12",
+					"hours": "Sun 4:00 PM - 8:00 PM; Mon - Fri 7:30 AM - 7:00 PM; Sat 9:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "99 Ave Charles De Gaulle",
+						"address_line_2": "NA",
+						"city": "Neuilly Sur Seine",
+						"state_name": "XX",
+						"postal_code": "92200",
+						"country_code": "FR",
+						"lat": "48.88096",
+						"long": "2.27149"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "JX9",
+					"name": "Montrouge Downtown",
+					"telephone": "(33) 1 46 55 41 41",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:30 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:30 PM; Sat 8:30 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "49 Ave Aristide Briand",
+						"address_line_2": "NA",
+						"city": "Montrouge",
+						"state_name": "XX",
+						"postal_code": "92120",
+						"country_code": "FR",
+						"lat": "48.818279",
+						"long": "2.325826"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "C1L",
+					"name": "Paris Clichy M 14",
+					"telephone": "(33) 1 41 27 91 30",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:00 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "116B Bd Victor Hugo",
+						"address_line_2": "Metro 14 Rer C Saint Ouen",
+						"city": "Clichy",
+						"state_name": "XX",
+						"postal_code": "92110",
+						"country_code": "FR",
+						"lat": "48.902271",
+						"long": "2.318519"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "JF4",
+					"name": "Paris 13eme Downtown",
+					"telephone": "(33) 1 45 83 21 93",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 2:00 PM - 7:00 PM; Sat 8:30 AM - 12:00 PM and 4:30 PM - 6:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "83 Rue de Tolbiac",
+						"address_line_2": "NA",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75013",
+						"country_code": "FR",
+						"lat": "48.827198",
+						"long": "2.367524"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "PV2",
+					"name": "Paris 11eme Downtown",
+					"telephone": "(33) 1 43 48 29 26",
+					"hours": "Mon - Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "241 Bld Voltaire 11th",
+						"address_line_2": "Place de la Nation",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75011",
+						"country_code": "FR",
+						"lat": "48.850938",
+						"long": "2.392007"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "BSS",
+					"name": "Paris Boulogne",
+					"telephone": "(33) 8 20 61 16 18",
+					"hours": "Mon - Thu 8:00 AM - 7:00 PM; Fri 8:00 AM - 7:30 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "78 Ave Pierre Grenier",
+						"address_line_2": "Park Sis 40 Rue D Point D Jour",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "92100",
+						"country_code": "FR",
+						"lat": "48.834991",
+						"long": "2.255137"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "EC2",
+					"name": "Paris 20eme",
+					"telephone": "(33) 1 40 24 10 20",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:30 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:30 PM; Sat 8:30 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "8 Blvd Davout",
+						"address_line_2": "NA",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75020",
+						"country_code": "FR",
+						"lat": "48.848476",
+						"long": "2.411626"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "S8E",
+					"name": "Porte de Bagnolet",
+					"telephone": "(33) 1 43 60 60 60",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:30 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "77 Bis Avenue Gambetta",
+						"address_line_2": "NA",
+						"city": "Bagnolet",
+						"state_name": "XX",
+						"postal_code": "93170",
+						"country_code": "FR",
+						"lat": "48.870983",
+						"long": "2.417289"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "NK4",
+					"name": "Charenton Le Pont",
+					"telephone": "(33) 1 43 68 56 00",
+					"hours": "Mon 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Thu 9:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Fri 9:00 AM - 12:00 PM and 2:00 PM - 6:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "5 Place Des Marseillais",
+						"address_line_2": "NA",
+						"city": "Charenton Le Pont",
+						"state_name": "XX",
+						"postal_code": "94220",
+						"country_code": "FR",
+						"lat": "48.826413",
+						"long": "2.406419"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "GW6",
+					"name": "Maisons Alfort",
+					"telephone": "(33) 1 43 76 02 02",
+					"hours": "Mon - Fri 8:30 AM - 12:00 PM and 2:30 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "2 Rue Gabriel Peri",
+						"address_line_2": "NA",
+						"city": "Maisons Alfort",
+						"state_name": "XX",
+						"postal_code": "94700",
+						"country_code": "FR",
+						"lat": "48.8086",
+						"long": "2.436442"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "JB6",
+					"name": "Blvd Circulaire",
+					"telephone": "(33) 1 46 86 33 00",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 2:00 PM - 5:00 PM; Sat 8:00 AM - 12:00 PM and 3:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Fruileg 235",
+						"address_line_2": "NA",
+						"city": "Rungis",
+						"state_name": "XX",
+						"postal_code": "94582",
+						"country_code": "FR",
+						"lat": "48.763853",
+						"long": "2.357423"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "A7N",
+					"name": "Antony Downtown",
+					"telephone": "(33) 1 46 66 25 20",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 2:00 PM - 5:00 PM; Sat 8:00 AM - 12:00 PM and 3:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "107 Ave Aristide Briand",
+						"address_line_2": "BP 137",
+						"city": "Antony",
+						"state_name": "XX",
+						"postal_code": "92185",
+						"country_code": "FR",
+						"lat": "48.75987",
+						"long": "2.30754"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "JF6",
+					"name": "Epinay Seine",
+					"telephone": "(33) 1 48 41 19 07",
+					"hours": "Mon - Fri 8:30 AM - 12:00 PM and 2:00 PM - 5:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "148 Avenue Joffre",
+						"address_line_2": "NA",
+						"city": "Epinay Sur Seine",
+						"state_name": "XX",
+						"postal_code": "93800",
+						"country_code": "FR",
+						"lat": "48.962727",
+						"long": "2.293147"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "O79",
+					"name": "Velizy Night Sun",
+					"telephone": "(33) 184204015",
+					"hours": "Sun 12:00 AM - 5:00 PM; Mon 6:00 PM - 12:00 AM; Tue - Sat 12:00 AM - 8:30 AM and 6:00 PM - 12:00 AM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "22 Ave De L Europe",
+						"address_line_2": "Hotel Mercure",
+						"city": "Velizy",
+						"state_name": "XX",
+						"postal_code": "78140",
+						"country_code": "FR",
+						"lat": "48.77924",
+						"long": "2.21527"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "VLZ",
+					"name": "Hotel Mercure",
+					"telephone": "(33) 184204015",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:00 AM - 11:00 AM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "22 Ave De LEurope",
+						"address_line_2": "NA",
+						"city": "Velizy",
+						"state_name": "XX",
+						"postal_code": "78140",
+						"country_code": "FR",
+						"lat": "48.779192",
+						"long": "2.215346"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "GW5",
+					"name": "Le Bourget",
+					"telephone": "(33) 1 48 38 51 00",
+					"hours": "Mon - Fri 9:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 9:00 AM - 12:00 PM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "1 Ave Du 8 Mai 1945",
+						"address_line_2": "NA",
+						"city": "Le Bourget",
+						"state_name": "XX",
+						"postal_code": "93350",
+						"country_code": "FR",
+						"lat": "48.94193",
+						"long": "2.43226"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "DF2",
+					"name": "Saint Maur Downtown",
+					"telephone": "(33) 1 48 86 38 00",
+					"hours": "Mon - Fri 8:30 AM - 12:00 PM and 2:30 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "25 Rue Des Remises",
+						"address_line_2": "Atlas Sa",
+						"city": "Saint Maur Des Fosses",
+						"state_name": "XX",
+						"postal_code": "94100",
+						"country_code": "FR",
+						"lat": "48.805777",
+						"long": "2.47297"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "P77",
+					"name": "Champigny Sur Marne",
+					"telephone": "(33) 1 47 06 73 00",
+					"hours": "Mon - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:30 AM - 12:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "85/87 Ave Du Gal De Gaulle",
+						"address_line_2": "NA",
+						"city": "Champigny Sur Marne",
+						"state_name": "XX",
+						"postal_code": "94500",
+						"country_code": "FR",
+						"lat": "48.8227",
+						"long": "2.49313"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "P67",
+					"name": "Pavillon Sous Bois",
+					"telephone": "(33) 1 48 50 05 77",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "52 Avenue Aristide Briand",
+						"address_line_2": "NA",
+						"city": "Pavillon Sous Bois",
+						"state_name": "XX",
+						"postal_code": "93320",
+						"country_code": "FR",
+						"lat": "48.907732",
+						"long": "2.494339"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "ORY",
+					"name": "Orly Paris Airport",
+					"telephone": "(33) 8 20 61 16 19",
+					"hours": "Sun - Fri 7:00 AM - 11:00 PM; Sat 7:00 AM - 10:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Orly T1/2, Hall 2 Niveau 0",
+						"address_line_2": "Parking: P3 Niveau - Allee K",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "94390",
+						"country_code": "FR",
+						"lat": "48.728544",
+						"long": "2.359281"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "MY9",
+					"name": "Massy Rail Station TGV",
+					"telephone": "(33) 1 69 30 54 82",
+					"hours": "Mon - Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "38 Avenue Carnot",
+						"address_line_2": "NA",
+						"city": "Massy",
+						"state_name": "XX",
+						"postal_code": "91300",
+						"country_code": "FR",
+						"lat": "48.729844",
+						"long": "2.267788"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "FH5",
+					"name": "Massy Dtn",
+					"telephone": "(33) 169316000",
+					"hours": "Mon - Fri 7:00 AM - 7:00 PM; Sat 8:00 AM - 12:30 PM and 3:30 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "1 Rue Du Buisson Aux Fraises",
+						"address_line_2": "NA",
+						"city": "Massy",
+						"state_name": "XX",
+						"postal_code": "91300",
+						"country_code": "FR",
+						"lat": "48.72503",
+						"long": "2.28329"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "VB7",
+					"name": "Versailles Chantiers",
+					"telephone": "(33) 1 39 20 94 94",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:00 AM - 11:00 AM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "9 Rue des Chantiers",
+						"address_line_2": "NA",
+						"city": "Versailles",
+						"state_name": "XX",
+						"postal_code": "78000",
+						"country_code": "FR",
+						"lat": "48.796748",
+						"long": "2.136501"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "J8X",
+					"name": "St Germain-en Lay Downtown",
+					"telephone": "(33) 1 34 51 78 78",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:00 AM - 11:00 AM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "27 Avenue De Saint Germain",
+						"address_line_2": "Port Marly",
+						"city": "Le Port Marly",
+						"state_name": "XX",
+						"postal_code": "78560",
+						"country_code": "FR",
+						"lat": "48.883006",
+						"long": "2.106523"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "OR5",
+					"name": "Morangis Downtown",
+					"telephone": "(33) 1 69 10 19 19",
+					"hours": "Mon - Fri 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "83-85 Ave General De Gaulle",
+						"address_line_2": "NA",
+						"city": "Morangis",
+						"state_name": "XX",
+						"postal_code": "91420",
+						"country_code": "FR",
+						"lat": "48.705388",
+						"long": "2.345884"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "PA6",
+					"name": "Montgeron Downtown",
+					"telephone": "(33) 169421949",
+					"hours": "Mon - Fri 8:00 AM - 11:45 AM and 2:00 PM - 5:45 PM; Sat 8:00 AM - 12:00 PM and 3:00 PM - 5:45 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "2 Route De Corbeil",
+						"address_line_2": "NA",
+						"city": "Montgeron",
+						"state_name": "XX",
+						"postal_code": "91230",
+						"country_code": "FR",
+						"lat": "48.71449",
+						"long": "2.44295"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "NJ5",
+					"name": "Ulis Villebon",
+					"telephone": "(33) 1 69 31 60 00",
+					"hours": "Mon - Fri 8:00 AM - 6:30 PM; Sat 8:30 AM - 12:00 PM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "7 Rue du Grand Dome",
+						"address_line_2": "NA",
+						"city": "Villebon",
+						"state_name": "XX",
+						"postal_code": "91140",
+						"country_code": "FR",
+						"lat": "48.69198",
+						"long": "2.223401"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "L60",
+					"name": "Viry Chatillon",
+					"telephone": "(33) 1 69 05 70 00",
+					"hours": "Mon - Fri 8:30 AM - 12:00 PM and 2:30 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "125 Ave du General de Gaulle",
+						"address_line_2": "NA",
+						"city": "Viry Chatillon",
+						"state_name": "XX",
+						"postal_code": "91170",
+						"country_code": "FR",
+						"lat": "48.681479",
+						"long": "2.378577"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "X2C",
+					"name": "Paris Roissy Terminal 1",
+					"telephone": "(33) 0820611620",
+					"hours": "Sun - Fri 6:00 AM - 12:00 AM; Sat 6:00 AM - 11:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Paris Roissy CDG Terminal 1",
+						"address_line_2": "Terminal 1",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "95711",
+						"country_code": "FR",
+						"lat": "49.01327",
+						"long": "2.541954"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "ZS4",
+					"name": "Montlhery Downtown",
+					"telephone": "(33) 1 69 80 63 46",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "72 Route Nationale 20",
+						"address_line_2": "NA",
+						"city": "Montlhery",
+						"state_name": "XX",
+						"postal_code": "91310",
+						"country_code": "FR",
+						"lat": "48.645585",
+						"long": "2.27035"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "X3C",
+					"name": "Paris Roissy Terminal 2 C D",
+					"telephone": "(33) 0820611620",
+					"hours": "Sun - Fri 6:00 AM - 12:00 AM; Sat 6:00 AM - 11:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Paris Roissy CDG T 2 C/D",
+						"address_line_2": "NA",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "95711",
+						"country_code": "FR",
+						"lat": "49.003517",
+						"long": "2.567438"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "CDG",
+					"name": "Paris Roissy Terminal 2 E F",
+					"telephone": "(33) 0820611631",
+					"hours": "Sun - Fri 6:00 AM - 12:00 AM; Sat 6:00 AM - 11:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Roissy Charles De Gaulle",
+						"address_line_2": "Terminal E F",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "95711",
+						"country_code": "FR",
+						"lat": "49.0033",
+						"long": "2.57707"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "FQ1",
+					"name": "Roissy TGV Rail Station",
+					"telephone": "(33) 8 20 61 16 20",
+					"hours": "Sun - Fri 6:00 AM - 12:00 AM; Sat 6:00 AM - 11:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Gare SNCF",
+						"address_line_2": "Charles de Gaulle Airport",
+						"city": "Roissy En France",
+						"state_name": "XX",
+						"postal_code": "95711",
+						"country_code": "FR",
+						"lat": "49.004321",
+						"long": "2.576981"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "PON",
+					"name": "Pontoise Downtown",
+					"telephone": "(33) 01 30 37 37 37",
+					"hours": "Mon - Fri 9:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 9:00 AM - 12:00 PM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "67 Rue De Paris",
+						"address_line_2": "NA",
+						"city": "Saint Ouen L Aumone",
+						"state_name": "XX",
+						"postal_code": "95310",
+						"country_code": "FR",
+						"lat": "49.039605",
+						"long": "2.116496"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "RPP",
+					"name": "Trappes Downtown",
+					"telephone": "(33) 01 85 40 04 06",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Sat 8:00 AM - 11:00 AM and 4:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "2 Bis Ave De LArmee Leclerc",
+						"address_line_2": "NA",
+						"city": "Trappes",
+						"state_name": "XX",
+						"postal_code": "78190",
+						"country_code": "FR",
+						"lat": "48.77433",
+						"long": "1.995821"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "COB",
+					"name": "Corbeil Downtown",
+					"telephone": "(33) 1 60 78 70 70",
+					"hours": "Mon 8:00 AM - 12:00 PM and 2:00 PM - 6:00 PM; Tue - Thu 8:30 AM - 12:00 PM and 2:00 PM - 6:00 PM; Fri 8:30 AM - 12:00 PM and 2:00 PM - 6:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "56 Ave Du 8 Mai 1945",
+						"address_line_2": "NA",
+						"city": "Corbeil",
+						"state_name": "XX",
+						"postal_code": "91100",
+						"country_code": "FR",
+						"lat": "48.610569",
+						"long": "2.44848"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "V7D",
+					"name": "Montevrain Downtown",
+					"telephone": "(33) 1 70 58 34 58",
+					"hours": "Mon - Fri 9:00 AM - 12:00 PM and 2:00 PM - 6:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "6 Rue De La Gare",
+						"address_line_2": "NA",
+						"city": "Montevrain",
+						"state_name": "XX",
+						"postal_code": "77144",
+						"country_code": "FR",
+						"lat": "48.854558",
+						"long": "2.770876"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Avis",
+					"code": "CS9",
+					"name": "Chessy TGV Rail Station",
+					"telephone": "(33) 8 20 61 16 90",
+					"hours": "Sun 1:00 PM - 7:00 PM; Mon - Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Place Des Passagers Du Vent",
+						"address_line_2": "NA",
+						"city": "Chessy",
+						"state_name": "XX",
+						"postal_code": "77700",
+						"country_code": "FR",
+						"lat": "48.869853",
+						"long": "2.782717"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "KQ1",
+					"name": "Paris Madeleine Dtn",
+					"telephone": "0183180058",
+					"hours": "Mon - Fri 8:00 AM - 4:00 PM; Sat 8:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "21 Place De La Madeleine",
+						"address_line_2": "Niveau - 1 Parking Saemes",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75008",
+						"country_code": "FR",
+						"lat": "48.871133",
+						"long": "2.3246"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "P9A",
+					"name": "Paris Montparnasse Railway Stn",
+					"telephone": "(33) 0821230419",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "5 Place Des Martyrs",
+						"address_line_2": "Hall 2 Pasteur",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR",
+						"lat": "48.838728",
+						"long": "2.317582"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "P9G",
+					"name": "Closed 2021-10-13",
+					"telephone": "(33) 0821230420",
+					"hours": "Mon - Fri 7:00 AM - 12:00 PM and 12:30 PM - 2:30 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Gare Du Nord",
+						"address_line_2": "Gare Sncf Voie 3 Niveau -1",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR",
+						"lat": "48.876779",
+						"long": "2.359282"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "I66",
+					"name": "Paris Rail Station Du Nord",
+					"telephone": "(33) 0821 230 637",
+					"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "03 Rue De Compiegne",
+						"address_line_2": "112 Rue De Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR",
+						"lat": "48.880652",
+						"long": "2.355151"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "R63",
+					"name": "Paris Gare De Lyon        (Rr)",
+					"telephone": "(33) 0821 230 636",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Hall 3 Gare De Ly Pl H Frenay",
+						"address_line_2": "Niv Min 1 Parking Mediterranee",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75012",
+						"country_code": "FR",
+						"lat": "48.843733",
+						"long": "2.373005"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "P1M",
+					"name": "Neuilly Sur Seine, Fr",
+					"telephone": "(33) 0821 230 639",
+					"hours": "Sun 4:00 PM - 8:00 PM; Mon - Fri 7:30 AM - 7:00 PM; Sat 9:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "99 Av Charles De Gaulle",
+						"city": "Neuilly S/seine",
+						"state_name": "XX",
+						"postal_code": "92200",
+						"country_code": "FR",
+						"lat": "48.880855",
+						"long": "2.271647"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "B6S",
+					"name": "Boulogne Downtown",
+					"telephone": "0821 23 10 16",
+					"hours": "Mon - Thu 8:00 AM - 7:00 PM; Fri 8:00 AM - 7:30 PM; Sat 8:00 AM - 1:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "78 Avenue Pierre Grenier",
+						"address_line_2": "Park Sis 40 Rue D Point D Jour",
+						"city": "Boulogne Billan",
+						"state_name": "XX",
+						"postal_code": "92100",
+						"country_code": "FR",
+						"lat": "48.8346",
+						"long": "2.254962"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "ORY",
+					"name": "Paris Orly Airport",
+					"telephone": "(33) 820611619",
+					"hours": "Sun - Fri 7:00 AM - 11:00 PM; Sat 7:00 AM - 10:00 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Orly T1/2, Hall 2 Niveau 0",
+						"address_line_2": "Parking: P3 Niveau -3 Allee K",
+						"city": "Orly",
+						"state_name": "XX",
+						"postal_code": "94547",
+						"country_code": "FR",
+						"lat": "48.728461",
+						"long": "2.359288"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				}
+			]
+		}
+	},
+	{
+		"id": "10e1d18d-0b2e-4fb5-9de9-f7511d71ba43",
+		"createdAt": "1692979162465",
+		"updatedAt": "1692979372250",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"where": "MAD",
+		"carsLocationAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:02:31Z",
+				"request_errors": 1,
+				"errors": [
+					{
+						"code": "609",
+						"message": "Not Found",
+						"reason": "Location details are not found for the given search criteria.",
+						"details": "Payless failed to fulfill the request.Proximity/Keyword search details are not available for the given input."
+					}
+				],
+				"success": [
+					{
+						"code": "206",
+						"message": "Partial Content",
+						"details": "The resource has returned a partial response."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "0abd1323-854d-4555-a553-357aefdc999a"
+			},
+			"locations": [
+				{
+					"brand": "Avis",
+					"code": "S6P",
+					"name": "Atocha Rail Station",
+					"telephone": "(34) 902110291",
+					"hours": "Sun 8:00 AM - 11:30 PM; Mon - Sat 8:00 AM - 11:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Estacion Atocha Parking P3",
+						"address_line_2": "Glorieta Atocha Sin",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28045",
+						"country_code": "ES",
+						"lat": "40.407222",
+						"long": "-3.691667"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "MD7",
+					"name": "Estacion De Tren De Chamartin",
+					"telephone": "(34) 902090343",
+					"hours": "Sun 9:00 AM - 12:45 PM; Mon - Fri 8:00 AM - 9:45 PM; Sat 9:00 AM - 12:45 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Agustin De Foxa S/N",
+						"address_line_2": "NA",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28036",
+						"country_code": "ES",
+						"lat": "40.47191",
+						"long": "-3.682977"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "II0",
+					"name": "Pozuelo Agency",
+					"telephone": "(34) 910526000",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Via De Las Dos Castillas 31",
+						"address_line_2": "NA",
+						"city": "Pozuelo De Alarcon",
+						"state_name": "XX",
+						"postal_code": "28224",
+						"country_code": "ES",
+						"lat": "40.439452",
+						"long": "-3.788922"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "D9G",
+					"name": "Leganes Getafe",
+					"telephone": "(34) 658334425",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Del Rey Pastor 17",
+						"address_line_2": "Pi El Bercial",
+						"city": "Leganes Getafe",
+						"state_name": "XX",
+						"postal_code": "28914",
+						"country_code": "ES",
+						"lat": "40.327243",
+						"long": "-3.745748"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "MAD",
+					"name": "Madrid-Barajas Airport T1/T4",
+					"telephone": "(34) 902200162",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 8:00 AM - 12:30 AM; Sat 8:00 AM - 10:30 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Madrid Apt T1&T4 Service",
+						"address_line_2": "Parking P1 & P4",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28042",
+						"country_code": "ES",
+						"lat": "40.464165",
+						"long": "-3.570362"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "MZ0",
+					"name": "Alcorcon Downtown",
+					"telephone": "(34) 910290199",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Polvoranca 156",
+						"address_line_2": "Poligono Urtinsa II",
+						"city": "Alcorcon",
+						"state_name": "XX",
+						"postal_code": "28923",
+						"country_code": "ES",
+						"lat": "40.336566",
+						"long": "-3.811823"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "TP4",
+					"name": "Majadahonda Hotel",
+					"telephone": "(34) 916340359",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Ctra Boadilla Majadahonda Km 7",
+						"address_line_2": "NA",
+						"city": "Majadahonda",
+						"state_name": "XX",
+						"postal_code": "28220",
+						"country_code": "ES",
+						"lat": "40.458586",
+						"long": "-3.872855"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "M6D",
+					"name": "Mostoles Agency",
+					"telephone": "(34) 916143000",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Margarita 25",
+						"address_line_2": "Madrid",
+						"city": "Mostoles",
+						"state_name": "XX",
+						"postal_code": "28935",
+						"country_code": "ES",
+						"lat": "40.338637",
+						"long": "-3.863751"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "Q4S",
+					"name": "Hotel Ciudad De Fuenlabrada",
+					"telephone": "(34) 916423289",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Avenida De La Cantuena 1",
+						"address_line_2": "NA",
+						"city": "Fuenlabrada",
+						"state_name": "XX",
+						"postal_code": "28941",
+						"country_code": "ES",
+						"lat": "40.274387",
+						"long": "-3.760889"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "I5T",
+					"name": "Las Rozas",
+					"telephone": "(34) 916377894",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Bruselas 7",
+						"address_line_2": "NA",
+						"city": "Las Rozas",
+						"state_name": "XX",
+						"postal_code": "28232",
+						"country_code": "ES",
+						"lat": "40.501788",
+						"long": "-3.89379"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "A6G",
+					"name": "Arganda",
+					"telephone": "(34) 603576817",
+					"hours": "Mon - Fri 9:00 AM - 2:00 PM and 4:00 PM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Avda De Madrid 47",
+						"address_line_2": "Hotel Sercotel Ab Arganda",
+						"city": "Arganda Del Rey",
+						"state_name": "XX",
+						"postal_code": "28500",
+						"country_code": "ES",
+						"lat": "40.30682",
+						"long": "-3.46797"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Avis",
+					"code": "A8H",
+					"name": "Hotel Alcala Plaza",
+					"telephone": "(34) 918831123",
+					"hours": "Mon - Fri 9:00 AM - 1:00 PM and 4:00 PM - 5:45 PM; Sat 9:00 AM - 12:45 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Hita 4",
+						"address_line_2": "Centro Comercial La Dehesa",
+						"city": "Alcala De Henares",
+						"state_name": "XX",
+						"postal_code": "28805",
+						"country_code": "ES",
+						"lat": "40.500325",
+						"long": "-3.335359"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "M98",
+					"name": "Atocha Rail Station",
+					"telephone": "(34) 902 110 291",
+					"hours": "Sun 8:00 AM - 11:30 PM; Mon - Sat 8:00 AM - 11:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Estacin Atocha Parking P3",
+						"address_line_2": "Glorieta Atocha Sin",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28045",
+						"country_code": "ES",
+						"lat": "40.407545",
+						"long": "-3.691712"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "M1D",
+					"name": "Estacion De Tren Chamartin",
+					"telephone": "(34) 902 090 343",
+					"hours": "Sun 9:00 AM - 12:45 PM; Mon - Fri 8:00 AM - 9:45 PM; Sat 9:00 AM - 12:45 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Agustin De Foxa Sn",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28026",
+						"country_code": "ES",
+						"lat": "40.470275",
+						"long": "-3.685431"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "II1",
+					"name": "Pozuelo De Alarcon Downtown",
+					"telephone": "(34) 910526000",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Via De Las Dos Castillas 31",
+						"city": "Pozuelo De Alarcon",
+						"state_name": "XX",
+						"postal_code": "28224",
+						"country_code": "ES",
+						"lat": "40.439358",
+						"long": "-3.788809"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "MAD",
+					"name": "Madrid-Barajas Airport T1/T4",
+					"telephone": "(34) 902-200-162",
+					"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 8:00 AM - 12:30 AM; Sat 8:00 AM - 10:30 PM",
+					"airport_location": true,
+					"address": {
+						"address_line_1": "Madrid Apt T1&t4 Service",
+						"address_line_2": "Parking P1 & P4",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28042",
+						"country_code": "ES",
+						"lat": "40.468254",
+						"long": "-3.571093"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "AL9",
+					"name": "Alcorcon Downtown",
+					"telephone": "910-290-199",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Polvoranca 156",
+						"address_line_2": "Poligono Urtinsa Ii",
+						"city": "Alcorcon",
+						"state_name": "XX",
+						"postal_code": "28923",
+						"country_code": "ES",
+						"lat": "40.336566",
+						"long": "-3.811823"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "ZO9",
+					"name": "Closed 2021-10-22",
+					"telephone": "(34) 91 654 33 61",
+					"hours": "",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Menorca 2",
+						"city": "Alcobendas, Madrid",
+						"state_name": "XX",
+						"postal_code": "28100",
+						"country_code": "ES",
+						"lat": "40.54095",
+						"long": "-3.62912"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": false
+				},
+				{
+					"brand": "Budget",
+					"code": "ZO0",
+					"name": "Mostoles Downtown",
+					"telephone": "(34) 91 614 30 00",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle De La Margarita 25",
+						"address_line_2": "Madrid",
+						"city": "Mostoles",
+						"state_name": "XX",
+						"postal_code": "28935",
+						"country_code": "ES",
+						"lat": "40.338661",
+						"long": "-3.863556"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "ZZ9",
+					"name": "Hotel Ciudad De Fuenlabrada",
+					"telephone": "(34) 34916423289",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Avenida De La Cantuena 1",
+						"city": "Fuenlabrada Madrid",
+						"state_name": "XX",
+						"postal_code": "28941",
+						"country_code": "ES",
+						"lat": "40.274387",
+						"long": "-3.760889"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "U9C",
+					"name": "Majadahonda Hotel",
+					"telephone": "(34) 916340359",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM; Sat 9:00 AM - 2:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Ctra Boadilla Majadahonda Km 7",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28220",
+						"country_code": "ES",
+						"lat": "40.471752",
+						"long": "-3.893536"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "IB5",
+					"name": "Las Rozas",
+					"telephone": "(34) 916377894",
+					"hours": "Mon - Fri 8:30 AM - 1:00 PM and 4:00 PM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Bruselas 7",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28230",
+						"country_code": "ES",
+						"lat": "40.497246",
+						"long": "-3.883605"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "ZQ0",
+					"name": "Arganda",
+					"telephone": "(34) 603576817",
+					"hours": "Mon - Fri 9:00 AM - 2:00 PM and 4:00 PM - 7:00 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Avda De Madrid 47",
+						"address_line_2": "Hotel Sercotel Ab Arganda",
+						"city": "Arganda Rey Madrid",
+						"state_name": "XX",
+						"postal_code": "28500",
+						"country_code": "ES",
+						"lat": "40.305049",
+						"long": "-3.458194"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				},
+				{
+					"brand": "Budget",
+					"code": "LJ9",
+					"name": "Hotel Alcala Plaza",
+					"telephone": "(34) 91 8831123",
+					"hours": "Mon - Fri 9:00 AM - 1:00 PM and 4:00 PM - 5:45 PM; Sat 9:00 AM - 12:45 PM",
+					"airport_location": false,
+					"address": {
+						"address_line_1": "Calle Hita 4",
+						"address_line_2": "La Dehesa",
+						"city": "Alcala De Henares",
+						"state_name": "XX",
+						"postal_code": "28805",
+						"country_code": "ES",
+						"lat": "40.500325",
+						"long": "-3.335359"
+					},
+					"skip_the_queue": false,
+					"valet_location": false,
+					"afterhours_return": true
+				}
+			]
+		}
+	}
+]

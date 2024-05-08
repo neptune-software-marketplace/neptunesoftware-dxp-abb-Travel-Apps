@@ -1,0 +1,16 @@
+
+
+currentLocationInput = 'From';
+
+// Call table api
+var options = {
+    parameters: {
+        "where": "", // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+
+apioAPIamadeusLocationsSearch(options);

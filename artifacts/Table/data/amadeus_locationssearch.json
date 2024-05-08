@@ -1,0 +1,330 @@
+[
+	{
+		"id": "a6e29e62-944a-45cf-863a-33e1e7950993",
+		"createdAt": "1691140388355",
+		"updatedAt": "1691140388355",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "madrid",
+		"locationData": {
+			"meta": {
+				"count": 5,
+				"links": {
+					"self": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=Madrid&sort=analytics.travelers.score&view=LIGHT&page%5Blimit%5D=5"
+				}
+			},
+			"data": [
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "ADOLFO SUAREZ BARAJAS",
+					"detailedName": "MADRID/ES:ADOLFO SUAREZ BARAJA",
+					"id": "AMAD",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/AMAD",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "MAD",
+					"address": {
+						"cityName": "MADRID",
+						"countryName": "SPAIN"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "CITY",
+					"name": "MADRID",
+					"detailedName": "MADRID/ES",
+					"id": "CMAD",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/CMAD",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "MAD",
+					"address": {
+						"cityName": "MADRID",
+						"countryName": "SPAIN"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "MIGUEL DE LA MADRID",
+					"detailedName": "COLIMA/MX:MIGUEL DE LA MADRID",
+					"id": "ACLQ",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ACLQ",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "CLQ",
+					"address": {
+						"cityName": "COLIMA",
+						"countryName": "MEXICO"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "CITY",
+					"name": "COLIMA",
+					"detailedName": "COLIMA/MX",
+					"id": "CCLQ",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/CCLQ",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "CLQ",
+					"address": {
+						"cityName": "COLIMA",
+						"countryName": "MEXICO"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "TORREJON",
+					"detailedName": "MADRID/ES:TORREJON",
+					"id": "ATOJ",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ATOJ",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "TOJ",
+					"address": {
+						"cityName": "MADRID",
+						"countryName": "SPAIN"
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": "a05def2e-dab0-4589-a543-20bd293e59a0",
+		"createdAt": "1692955054235",
+		"updatedAt": "1692955054235",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "paris",
+		"locationData": {
+			"meta": {
+				"count": 17,
+				"links": {
+					"self": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=pari&sort=analytics.travelers.score&view=LIGHT&page%5Blimit%5D=5",
+					"next": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=pari&sort=analytics.travelers.score&view=LIGHT&page%5Boffset%5D=5&page%5Blimit%5D=5",
+					"last": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=pari&sort=analytics.travelers.score&view=LIGHT&page%5Boffset%5D=12&page%5Blimit%5D=5"
+				}
+			},
+			"data": [
+				{
+					"type": "location",
+					"subType": "CITY",
+					"name": "PARIS",
+					"detailedName": "PARIS/FR",
+					"id": "CPAR",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/CPAR",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "PAR",
+					"address": {
+						"cityName": "PARIS",
+						"countryName": "FRANCE"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "CHARLES DE GAULLE",
+					"detailedName": "PARIS/FR:CHARLES DE GAULLE",
+					"id": "ACDG",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ACDG",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "CDG",
+					"address": {
+						"cityName": "PARIS",
+						"countryName": "FRANCE"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "ORLY",
+					"detailedName": "PARIS/FR:ORLY",
+					"id": "AORY",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/AORY",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "ORY",
+					"address": {
+						"cityName": "PARIS",
+						"countryName": "FRANCE"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "BEAUVAIS TILLE",
+					"detailedName": "PARIS/FR:BEAUVAIS TILLE",
+					"id": "ABVA",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ABVA",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "BVA",
+					"address": {
+						"cityName": "PARIS",
+						"countryName": "FRANCE"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "LE TOUQUET",
+					"detailedName": "LE TOUQUET PARIS PLAGE/FR",
+					"id": "ALTQ",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ALTQ",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "LTQ",
+					"address": {
+						"cityName": "LE TOUQUET PARIS PLAGE",
+						"countryName": "FRANCE"
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": "2f7e482c-9e25-4f49-aa61-afc54d6d8e59",
+		"createdAt": "1691140332009",
+		"updatedAt": "1691140332009",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "london",
+		"locationData": {
+			"meta": {
+				"count": 16,
+				"links": {
+					"self": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=Londo&sort=analytics.travelers.score&view=LIGHT&page%5Blimit%5D=5",
+					"next": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=Londo&sort=analytics.travelers.score&view=LIGHT&page%5Boffset%5D=5&page%5Blimit%5D=5",
+					"last": "{host}/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=Londo&sort=analytics.travelers.score&view=LIGHT&page%5Boffset%5D=11&page%5Blimit%5D=5"
+				}
+			},
+			"data": [
+				{
+					"type": "location",
+					"subType": "CITY",
+					"name": "LONDON",
+					"detailedName": "LONDON/GB",
+					"id": "CLON",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/CLON",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "LON",
+					"address": {
+						"cityName": "LONDON",
+						"countryName": "UNITED KINGDOM"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "HEATHROW",
+					"detailedName": "LONDON/GB:HEATHROW",
+					"id": "ALHR",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ALHR",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "LHR",
+					"address": {
+						"cityName": "LONDON",
+						"countryName": "UNITED KINGDOM"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "GATWICK",
+					"detailedName": "LONDON/GB:GATWICK",
+					"id": "ALGW",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ALGW",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "LGW",
+					"address": {
+						"cityName": "LONDON",
+						"countryName": "UNITED KINGDOM"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "STANSTED",
+					"detailedName": "LONDON/GB:STANSTED",
+					"id": "ASTN",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ASTN",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "STN",
+					"address": {
+						"cityName": "LONDON",
+						"countryName": "UNITED KINGDOM"
+					}
+				},
+				{
+					"type": "location",
+					"subType": "AIRPORT",
+					"name": "LUTON",
+					"detailedName": "LONDON/GB:LUTON",
+					"id": "ALTN",
+					"self": {
+						"href": "{host}/v1/reference-data/locations/ALTN",
+						"methods": [
+							"GET"
+						]
+					},
+					"iataCode": "LTN",
+					"address": {
+						"cityName": "LONDON",
+						"countryName": "UNITED KINGDOM"
+					}
+				}
+			]
+		}
+	}
+]

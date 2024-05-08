@@ -1,0 +1,23 @@
+//console.log("Add to cart initiated...");
+
+//var carImage = oImageVehicleRate.getSrc();
+var data = modeloSimpleFormVehicleAddressDetails.getData();
+
+//ModelData.Add(oListCarsSelected, carImage);
+
+getCacheoListCarsSelected();
+
+
+setTimeout(function() {
+
+    ModelData.Add(oListCarsSelected, data);
+
+
+    setCacheoListCarsSelected();
+
+    jQuery.sap.require("sap.m.MessageBox");
+    sap.m.MessageBox.show("Car added to your booking trip");
+
+    oApp.backDetailToPage(oPageVehicleResults);
+
+}, 1000);

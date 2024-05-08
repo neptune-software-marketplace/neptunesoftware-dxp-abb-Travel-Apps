@@ -1,0 +1,4 @@
+if (typeof addressLine2 === "undefined" || addressLine2 === null || addressLine2 === "" || addressLine2 === "NA") { return; } 
+
+var formattedText = addressLine2; 
+return formattedText;

@@ -1,0 +1,5 @@
+if (typeof oEvent.getParameters().selectedItem !== "undefined"){
+oInputSLocationKey.setValue(oEvent.getParameters().selectedItem.getProperty("key"));
+} else {
+    oInputSLocationKey.setValue();
+}

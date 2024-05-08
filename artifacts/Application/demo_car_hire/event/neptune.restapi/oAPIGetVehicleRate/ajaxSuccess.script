@@ -1,0 +1,77 @@
+var vehicleRate = modeloMultiModelVehicleRate.oData;
+
+//console.log("vehicleRate Model:",vehicleRate);
+
+
+var obj = {};
+obj.brand = vehicleRate.product.brand,
+
+obj.pickupLocationAddrLine1 = vehicleRate.reservation.pickup_location.address.address_line_1,
+obj.pickupLocationAddrLine2 = vehicleRate.reservation.pickup_location.address.address_line_2,
+obj.pickupLocationCity = vehicleRate.reservation.pickup_location.address.city,
+obj.pickupLocationCountry = vehicleRate.reservation.pickup_location.address.country_code,
+obj.pickupLocationPostCode = vehicleRate.reservation.pickup_location.address.postal_code,
+obj.pickupLocationStateName = vehicleRate.reservation.pickup_location.address.state_name,
+obj.pickupLocationAirportBool = vehicleRate.reservation.pickup_location.location.airport_location,
+obj.pickupLocationCode = vehicleRate.reservation.pickup_location.location.code,
+obj.pickupLocationHours = vehicleRate.reservation.pickup_location.location.hours,
+obj.pickupLocationName = vehicleRate.reservation.pickup_location.location.name,
+obj.pickupLocationTelephone = vehicleRate.reservation.pickup_location.location.telephone,
+
+obj.dropoffLocationAddrLine1 = vehicleRate.reservation.dropoff_location.address.address_line_1,
+obj.dropoffLocationAddrLine2 = vehicleRate.reservation.dropoff_location.address.address_line_2,
+obj.dropoffLocationCity = vehicleRate.reservation.dropoff_location.address.city,
+obj.dropoffLocationCountry = vehicleRate.reservation.dropoff_location.address.country_code,
+obj.dropoffLocationPostCode = vehicleRate.reservation.dropoff_location.address.postal_code,
+obj.dropoffLocationStateName = vehicleRate.reservation.dropoff_location.address.state_name,
+obj.dropoffLocationAirportBool = vehicleRate.reservation.dropoff_location.location.airport_location,
+obj.dropoffLocationCode = vehicleRate.reservation.dropoff_location.location.code,
+obj.dropoffLocationHours = vehicleRate.reservation.dropoff_location.location.hours,
+obj.dropoffLocationName = vehicleRate.reservation.dropoff_location.location.name,
+obj.dropoffLocationTelephone = vehicleRate.reservation.dropoff_location.location.telephone,
+
+obj.rateAmount = vehicleRate.reservation.rate_totals.rate.amount,
+obj.rateCurrency = vehicleRate.reservation.rate_totals.rate.currency,
+obj.rateDays = vehicleRate.reservation.rate_totals.rate.days,
+obj.rateCode = vehicleRate.reservation.rate_totals.rate.rate_code;
+
+obj.totalExtras = vehicleRate.reservation.rate_totals.totals.extras_total;
+obj.totalInsurance = vehicleRate.reservation.rate_totals.totals.insurance_total;
+obj.totalReservation = vehicleRate.reservation.rate_totals.totals.reservation_total;
+obj.totalTaxFees = vehicleRate.reservation.rate_totals.totals.taxes_fees_total;
+obj.totalVehicleTotal = vehicleRate.reservation.rate_totals.totals.vehicle_total;
+
+//obj.taxBreakdown = vehicleRate.reservation.rate_totals.rate.taxes_fees.taxes;
+//obj.feeBreakdown = vehicleRate.reservation.rate_totals.rate.taxes_fees.fees;
+
+obj.terms = vehicleRate.reservation.terms.endpoint;
+
+// Define type of object for shopping cart
+obj.objectType = "car";
+
+
+
+//ModelData.Add(oSimpleFormVehicleRate, obj);
+
+var formattedDates = modeloMultiModelFormattedDateTime.getData();
+var formattedPickup = formattedDates.formattedPickup;
+var formattedDropff = formattedDates.formattedDropff;
+obj.formattedPickup = formattedPickup;
+obj.formattedDropff = formattedDropff;
+
+var imageSrc = oImageVehicleRate.getSrc();
+obj.imageSrc = imageSrc;
+
+var carName = oTitleVehicleRateName.getText();
+obj.name = carName;
+
+//ID
+var transactionId = vehicleRate.transaction.transaction_id;
+obj.transactionId = transactionId;
+
+//console.log("Rate Obj =",obj);
+modeloSimpleFormVehicleAddressDetails.setData(obj);
+modeloSimpleFormVehiclePriceDetails.setData(obj);
+
+oApp.setBusy(false);
+oApp.toDetail(oPageVehicleRate);

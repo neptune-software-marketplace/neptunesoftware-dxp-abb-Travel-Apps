@@ -1,0 +1,8 @@
+.sapFGridListDefault {
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  grid-gap: 1.5rem 1.5rem;
+}
+
+.flexStyle {
+  flex-direction: column !important;
+}

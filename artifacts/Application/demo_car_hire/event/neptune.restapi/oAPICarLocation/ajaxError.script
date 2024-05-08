@@ -1,0 +1,30 @@
+//console.log("Error...");
+
+
+jQuery.sap.require("sap.m.MessageBox");
+//sap.m.MessageBox.show(xhr.responseText.details);
+
+//console.log(xhr.responseText);
+var responseTextVar = JSON.parse(xhr.responseText);
+var responseTextVarStatusErrors = responseTextVar.status.errors;
+//console.log("responseTextVarStatusErrors: ",responseTextVarStatusErrors);
+
+
+for (i = 0; i < responseTextVarStatusErrors.length; i++) {
+    var errorCd = responseTextVarStatusErrors[i].code;
+    var errorMsg = responseTextVarStatusErrors[i].message;
+    var errorReas = responseTextVarStatusErrors[i].reason;
+    var errorDeta = responseTextVarStatusErrors[i].details;
+}
+
+
+
+//console.log("errorCd: ",errorCd);
+//console.log("errorMsg: ",errorMsg);
+//console.log("errorReas: ",errorReas);
+//console.log("errorDeta: ",errorDeta);
+sap.m.MessageBox.show("Error code: "+errorCd+"\n"+"Message: "+errorMsg+"\n"+"Reason: "+errorReas+"\n"+"Details: "+errorDeta);
+
+
+
+oApp.setBusy(false);

@@ -1,0 +1,38 @@
+{
+	"id": "71ea613b-a32f-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-31T13:07:45.556Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "c8757d7f-482f-40b0-b22a-e66679733628",
+			"fieldName": "locationFrom",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "13426100-86d8-4f09-d0ba-47b6e750420d",
+			"fieldName": "locationTo",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "287b673d-8ffb-4add-eadf-3567572ed66a",
+			"fieldName": "flightsAvailable",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "amadeus_demo_locationsflights",
+	"description": null,
+	"ver": "24.05.08.0906",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
+	"rolesRead": [],
+	"rolesWrite": []
+}

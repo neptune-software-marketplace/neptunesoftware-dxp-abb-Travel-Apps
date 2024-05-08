@@ -1,0 +1,31 @@
+{
+	"id": "8affcfaa-0e32-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-03T15:01:50.320Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "c9a42baf-8556-4b54-d25e-7d89fe5f5cdf",
+			"fieldName": "where",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6d702ba5-6cec-44fd-8084-e9482289c87a",
+			"fieldName": "carsLocationAvailable",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "avis_demo_carhire_locations",
+	"description": null,
+	"ver": "24.05.08.1023",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,24 @@
+//console.log(oCBSelectAll.mProperties.selected);
+oCBAvis.setValueState(sap.ui.core.ValueState.None);
+oCBBudget.setValueState(sap.ui.core.ValueState.None);
+oCBPayless.setValueState(sap.ui.core.ValueState.None);
+
+if (oCBSelectAll.mProperties.selected===true) {
+    oCBAvis.setEditable(false);
+    oCBBudget.setEditable(false);
+    oCBPayless.setEditable(false);
+    
+    oCBAvis.setSelected(true);
+    oCBBudget.setSelected(true);
+    oCBPayless.setSelected(true);
+}
+
+if (oCBSelectAll.mProperties.selected===false) {
+    oCBAvis.setEditable(true);
+    oCBBudget.setEditable(true);
+    oCBPayless.setEditable(true);
+    
+    oCBAvis.setSelected(false);
+    oCBBudget.setSelected(false);
+    oCBPayless.setSelected(false);
+}

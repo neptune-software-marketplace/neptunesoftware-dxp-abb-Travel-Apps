@@ -1,0 +1,9 @@
+var dat = modeloMultiModelListLocations.oData.data;
+var sug;
+sug = new sap.ui.core.Item({
+        key: dat[0].result_object.location_id,
+        text: dat[0].result_object.location_string,
+    })
+    oInputSLocation.addSuggestionItem(sug);
+
+oApp.setBusy(false);

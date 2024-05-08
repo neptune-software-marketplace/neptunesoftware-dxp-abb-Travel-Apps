@@ -1,0 +1,126 @@
+{
+	"id": "af681f59-150d-ef11-96f5-000d3a662316",
+	"createdAt": "2024-05-08T08:31:22.256Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-Travel-Apps"
+	},
+	"name": "Travel apps",
+	"description": "Hotel booking, flight booking, car hire apps",
+	"ver": "24.05.08.1143",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "c7ffd33e-5b37-ee11-b8f0-002248a2f7be",
+			"application": "demo_search_hotels",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "AF681F59-150D-EF11-96F5-000D3A662316"
+			}
+		},
+		{
+			"id": "9be3e452-a732-ee11-b8f0-000d3a661446",
+			"application": "demo_search_flights",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "AF681F59-150D-EF11-96F5-000D3A662316"
+			}
+		},
+		{
+			"id": "51b6f7cb-b145-ee11-b8f0-002248a2f7be",
+			"application": "demo_car_hire",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "AF681F59-150D-EF11-96F5-000D3A662316"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "da056602-250d-ef11-96f5-000d3a662316",
+			"name": "avis_demo_carhire_locations",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a943eb63-0f0d-ef11-96f5-000d3a662316",
+			"name": "amadeus_demo_locationshotels",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a778544e-250d-ef11-96f5-000d3a662316",
+			"name": "avis_demo_carhire_cars",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "607ba8a6-1a0d-ef11-96f5-000d3a662316",
+			"name": "amadeus_demo_locationsflights",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "24ba23d0-0f0d-ef11-96f5-000d3a662316",
+			"name": "amadeus_locationssearch",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "fcb3c57c-a42f-ee11-907e-000d3a661202",
+			"name": "amadeus_demo_locationshotels",
+			"description": null
+		},
+		{
+			"id": "b01d6ed1-a632-ee11-b8f0-000d3a661446",
+			"name": "amadeus_locationssearch",
+			"description": null
+		},
+		{
+			"id": "8affcfaa-0e32-ee11-b8f0-000d3a661446",
+			"name": "avis_demo_carhire_locations",
+			"description": null
+		},
+		{
+			"id": "71ea613b-a32f-ee11-907e-000d3a661202",
+			"name": "amadeus_demo_locationsflights",
+			"description": null
+		},
+		{
+			"id": "4aa1218a-5243-ee11-b8f0-002248a2f7be",
+			"name": "avis_demo_carhire_cars",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

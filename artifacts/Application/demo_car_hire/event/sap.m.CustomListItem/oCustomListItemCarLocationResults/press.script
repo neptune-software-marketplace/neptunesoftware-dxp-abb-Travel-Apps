@@ -1,0 +1,104 @@
+var context = oEvent.oSource.getBindingContext();
+var details = (context.getObject());
+
+selectedLocation = details;
+
+// Not using the bearer token
+// dataClientID = getConfigValueAvis("AvisClientId");
+// var dataAuthToken = modeloMultiModelSearchToken.getData();
+// var dataAuthTokenExtract = ("Bearer " + dataAuthToken.access_token);
+
+//console.log(details.countryCode);
+//console.log(details.brand);
+//console.log(details.code);
+var brand = details.brand
+var pickupdropoffLocation = details.code
+var countryCode = details.countryCode
+
+
+// // -----
+// //Date Time Formatting
+// var pickupDate = oDateTimePickerPickup.getValue();
+// var dropoffDate = oDateTimePickerDropoff.getValue();
+// // 23/04/2020, 09:32
+// var pickupDateDay = pickupDate.substring(0,2);
+// var dropoffDateDay = dropoffDate.substring(0,2);
+// var pickupDateMonth = pickupDate.substring(3,5);
+// var dropoffDateMonth = dropoffDate.substring(3,5);
+// var pickupDateYear = pickupDate.substring(6,10);
+// var dropoffDateYear = dropoffDate.substring(6,10);
+// var pickupDateTime = pickupDate.substring(12,17);
+// var dropoffDateTime = dropoffDate.substring(12,17);
+
+// var formattedPickup = (pickupDateYear+"-"+pickupDateMonth+"-"+pickupDateDay+"T"+pickupDateTime);
+// var formattedDropff = (dropoffDateYear+"-"+dropoffDateMonth+"-"+dropoffDateDay+"T"+dropoffDateTime);
+
+// var formattedPickup = formattedPickup.concat(':00');
+// var formattedDropff = formattedDropff.concat(':00');
+
+// var formattedPickup = formattedPickup.split(" ").join("")
+// var formattedDropff = formattedDropff.split(" ").join("")
+
+// console.log("FPU:",formattedPickup);
+// console.log("FDO:",formattedDropff);
+
+// //2020-12-18T13:56:00
+
+// // -----
+// //Date Time Formatting
+
+var pickupDate2 = oDateTimePickerPickup.getDateValue();
+var dropoffDate2 = oDateTimePickerDropoff.getDateValue();
+
+var formattedPickup = moment(pickupDate2).format('YYYY[-]MM[-]DD[T]HH:mm:ss');
+var formattedDropff = moment(dropoffDate2).format('YYYY[-]MM[-]DD[T]HH:mm:ss');
+
+// -----
+
+//Re-store formatted date for future reference
+modeloMultiModelFormattedDateTime.setData({
+    formattedPickup: formattedPickup,
+    formattedDropff: formattedDropff
+})
+//console.log("Formatted date time multimodel: ", modeloMultiModelFormattedDateTime.getData());
+
+//Store brand + country code of selected location
+modeloMultiModelSelectedBrandAndLocation.oData = "";
+modeloMultiModelSelectedBrandAndLocation.setData({
+    brand: brand,
+    pickupdropoffLocation: pickupdropoffLocation,
+    countryCode: countryCode
+})
+
+// var options = {
+//     headers: {
+//         "client_id": dataClientID, // Required. 
+//         "authorization": dataAuthTokenExtract// Required. 
+//     },
+//     parameters: {
+//         "brand": brand,
+//         "pickup_date": formattedPickup, 
+//         "pickup_location": pickupdropoffLocation, 
+//         "dropoff_date": formattedDropff, 
+//         "dropoff_location": pickupdropoffLocation, 
+//         "country_code": countryCode 
+
+//     }
+// };
+
+// //console.log("APIGetVehicles called...");
+// apioAPIGetVehicles(options);
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({carsLocationID: details.name}), // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+ //console.log(options);
+apioAPICarHireCars(options)
+
+oApp.setBusy(true);

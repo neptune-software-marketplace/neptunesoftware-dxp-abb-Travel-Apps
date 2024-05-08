@@ -1,0 +1,4378 @@
+[
+	{
+		"id": "55145105-77d4-4f2d-85d4-b5de8bd46d6e",
+		"createdAt": "1691763801884",
+		"updatedAt": "1691764799437",
+		"createdBy": "emmanuella.ndukwe@neptune-software.com",
+		"updatedBy": "emmanuella.ndukwe@neptune-software.com",
+		"location": "LON",
+		"hotelsAvailable": {
+			"data": [
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "ICLONICA",
+						"chainCode": "IC",
+						"dupeId": "700009552",
+						"name": "INTERCONTINENTAL LONDON PARK",
+						"cityCode": "LON",
+						"latitude": 51.5036,
+						"longitude": -0.14981
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "TOYD61EWEV",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "900",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "*RH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "GOLD 14 LRA\nCosy Room When you arrive at the hotel, we will\ndo our best to meet your room type preference.",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "558.14",
+								"total": "563.14",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"amount": "5.00",
+										"currency": "GBP",
+										"included": false
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "558.14"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "558.14"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T13:51:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"BE",
+											"CU",
+											"CA",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/TOYD61EWEV"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=ICLONICA"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONGHM",
+						"chainCode": "MC",
+						"dupeId": "700031300",
+						"name": "JW Marriott Grosvenor House London",
+						"cityCode": "LON",
+						"latitude": 51.50988,
+						"longitude": -0.15509
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "RI97W36LFG",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Queen Room, 1 Queen(s),\n20sqm/215sqft-29sqm/312sqft, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "548.00",
+								"total": "548.00",
+								"variations": {
+									"average": {
+										"base": "548.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "548.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "548.00",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/RI97W36LFG"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONGHM"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "SILON105",
+						"chainCode": "SI",
+						"dupeId": "700012635",
+						"name": "Sheraton Grand London Park Lane",
+						"cityCode": "LON",
+						"latitude": 51.50497,
+						"longitude": -0.14734
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "L5MVTX8FQM",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "QUE",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 Queen(s),\n21sqm/226sqft-23sqm/247sqft, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "375.20",
+								"total": "375.20",
+								"variations": {
+									"average": {
+										"base": "375.20"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "375.20"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "375.20",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/L5MVTX8FQM"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=SILON105"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "BWLON187",
+						"chainCode": "BW",
+						"dupeId": "700048011",
+						"name": "Best Western Mornington Hotel London Hyde Park",
+						"cityCode": "LON",
+						"latitude": 51.51159,
+						"longitude": -0.17729
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "DLZ7D81SUZ",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "0.5"
+							},
+							"boardType": "HALF_BOARD",
+							"room": {
+								"type": "A1T",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE*BEST LEAST RESTRICTIVE RATE\n1 SINGLE BED,NO-SMOKING,STANDARD\nSTANDARD",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "189.00",
+								"total": "189.00",
+								"taxes": [
+									{
+										"code": "TOTAL_TAX",
+										"amount": "0.00",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "189.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "189.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "NON-REFUNDABLE RATE"
+										},
+										"type": "FULL_STAY"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/DLZ7D81SUZ"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=BWLON187"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HLLON834",
+						"chainCode": "HL",
+						"dupeId": "700040419",
+						"name": "DOUBLETREE LONDON VICTORIA",
+						"cityCode": "LON",
+						"latitude": 51.494,
+						"longitude": -0.14338
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "6HK11XZ5MW",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "8"
+							},
+							"room": {
+								"type": "A0B",
+								"typeEstimated": {
+									"category": "FAMILY_ROOM",
+									"beds": 2,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE\nTWIN FAMILY GUEST ROOM\nTWO SINGLE BEDS AND ONE ROLLAWAY BED\nFLATSCREEN TV/WIFI/WORK DESK",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "439.00",
+								"total": "439.00",
+								"variations": {
+									"average": {
+										"base": "439.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "439.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "Plus Taxes and fees where appropriate."
+										},
+										"amount": "439.00",
+										"deadline": "2023-08-11T00:00:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"VI",
+											"CA",
+											"AX",
+											"DC",
+											"DS",
+											"JC",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/6HK11XZ5MW"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HLLON834"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONLMM",
+						"chainCode": "MC",
+						"dupeId": "700060042",
+						"name": "London Marriott Hotel Kensington",
+						"cityCode": "LON",
+						"latitude": 51.49463,
+						"longitude": -0.1896
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "MG2AYPH2FI",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 Queen(s), 22sqm/237sqft,\nWireless internet, for a fee, Coffee/tea",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "305.15",
+								"total": "305.15",
+								"variations": {
+									"average": {
+										"base": "305.15"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "305.15"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "305.15",
+										"deadline": "2023-08-10T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/MG2AYPH2FI"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONLMM"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONPLM",
+						"chainCode": "MC",
+						"dupeId": "700024273",
+						"name": "London Marriott Hotel Park Lane",
+						"cityCode": "LON",
+						"latitude": 51.51296,
+						"longitude": -0.15772
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "L02A5D8LU0",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 King, 28sqm/301sqft, Wireless\ninternet, for a fee, Coffee/tea maker,",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "631.20",
+								"total": "631.20",
+								"variations": {
+									"average": {
+										"base": "631.20"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "631.20"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "631.20",
+										"deadline": "2023-08-10T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/L02A5D8LU0"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONPLM"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "VCLONQLV",
+						"chainCode": "VC",
+						"dupeId": "700095677",
+						"name": "Grand Residences by Marriott Mayfair London",
+						"cityCode": "LON",
+						"latitude": 51.51151,
+						"longitude": -0.15493
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "Y3WA0C1J6A",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "OBV",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\n1 King or 2 Twins, Sofa bed, Full kitchen,\nMicrowave, 61sqm/656sqft-68sqm/732sqft,",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "832.00",
+								"total": "832.00",
+								"variations": {
+									"average": {
+										"base": "832.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "832.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "832.00",
+										"deadline": "2023-08-04T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/Y3WA0C1J6A"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=VCLONQLV"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HLLON611",
+						"chainCode": "HL",
+						"dupeId": "700027182",
+						"name": "DOUBLETREE BY HILTON LONDON MARBLE ARCH",
+						"cityCode": "LON",
+						"latitude": 51.51477,
+						"longitude": -0.1568
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "XY4M3VO088",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "8"
+							},
+							"room": {
+								"type": "A06",
+								"typeEstimated": {
+									"category": "RESIDENTIAL_APPARTMENT",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE\nSINGLE GUEST ROOM\nWIFI/32 INCH SAT HD TV/COFFEE-TEA FACILITIES\nLAPTOP SAFE/MEDIA HUB/SPEAKER PHONE/AIRCON",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "337.00",
+								"total": "337.00",
+								"variations": {
+									"average": {
+										"base": "337.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "337.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "Plus Taxes and fees where appropriate."
+										},
+										"amount": "337.00",
+										"deadline": "2023-08-11T00:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"VI",
+											"CA",
+											"AX",
+											"DC",
+											"DS",
+											"JC",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/XY4M3VO088"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HLLON611"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "INLON402",
+						"chainCode": "IN",
+						"dupeId": "700005057",
+						"name": "Hotel Indigo Kensington Earl",
+						"cityCode": "LON",
+						"latitude": 51.4919,
+						"longitude": -0.19188
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "QL5QIFMLI1",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "*RH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\nStandard Room When you arrive at the hotel, we\nwill do our best to meet your room type",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "330.00",
+								"total": "330.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "330.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "330.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:03:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"DS",
+											"BE"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/QL5QIFMLI1"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=INLON402"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "INLONC25",
+						"chainCode": "IN",
+						"dupeId": "700041975",
+						"name": "HOTEL INDIGO PADDINGTON",
+						"cityCode": "LON",
+						"latitude": 51.51528,
+						"longitude": -0.17398
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "PCXYQ254NH",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "*1B",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "DOUBLE"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\n1 Double Bed Standard 15 SqM Room",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "209.00",
+								"total": "209.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "209.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "209.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:03:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"JC",
+											"DS",
+											"BE",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/PCXYQ254NH"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=INLONC25"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONDTG",
+						"chainCode": "MC",
+						"dupeId": "700027181",
+						"name": "London Marriott Hotel Grosvenor Square",
+						"cityCode": "LON",
+						"latitude": 51.51288,
+						"longitude": -0.15079
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "6T42CAOSRB",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 Queen(s), Mini fridge,\n24sqm/258sqft, Living/sitting area, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "415.20",
+								"total": "415.20",
+								"variations": {
+									"average": {
+										"base": "415.20"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "415.20"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "415.20",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/6T42CAOSRB"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONDTG"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONMAR",
+						"chainCode": "MC",
+						"dupeId": "700009923",
+						"name": "LONDON MARRIOTT MARBLE ARCH",
+						"cityCode": "LON",
+						"latitude": 51.51587,
+						"longitude": -0.16413
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "PXLBSJPH4H",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 King, 22sqm/237sqft,\nLiving/sitting area, Wireless internet, for a",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "295.00",
+								"total": "295.00",
+								"variations": {
+									"average": {
+										"base": "295.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "295.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "295.00",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/PXLBSJPH4H"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONMAR"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAOP",
+						"chainCode": "PI",
+						"dupeId": "700095494",
+						"name": "London Kensington",
+						"cityCode": "LON",
+						"latitude": 51.49348,
+						"longitude": -0.19086
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "588VBTSG58",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "180.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "29.17",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "180.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "175.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/588VBTSG58"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAOP"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAYH",
+						"chainCode": "PI",
+						"dupeId": "700006154",
+						"name": "London Kensington (Olympia)",
+						"cityCode": "LON",
+						"latitude": 51.49455,
+						"longitude": -0.19658
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "NQTLVM5G5N",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "180.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "29.17",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "180.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "175.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/NQTLVM5G5N"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAYH"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAYR",
+						"chainCode": "PI",
+						"dupeId": "700015888",
+						"name": "London Victoria",
+						"cityCode": "LON",
+						"latitude": 51.49259,
+						"longitude": -0.14222
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "ZBILOCJDWA",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "206.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "33.50",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "206.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "201.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/ZBILOCJDWA"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAYR"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "BWLON799",
+						"chainCode": "BW",
+						"dupeId": "700006292",
+						"name": "Best Western Corona",
+						"cityCode": "LON",
+						"latitude": 51.48992,
+						"longitude": -0.13721
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "C6CRFEFRDH",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "UK5",
+							"rateFamilyEstimated": {
+								"code": "PRO",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "10"
+							},
+							"room": {
+								"type": "A1T",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "ADV PURCHASE*FULLPAY*NO CANCEL*NO CHANGES\n1 SINGLE BED,NO-SMOKING,STANDARD\nSTANDARD",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "89.10",
+								"total": "89.10",
+								"taxes": [
+									{
+										"code": "TOTAL_TAX",
+										"amount": "0.00",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "89.10"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "89.10"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "NON-REFUNDABLE RATE"
+										},
+										"type": "FULL_STAY"
+									}
+								],
+								"paymentType": "deposit"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/C6CRFEFRDH"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=BWLON799"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "EBLONEBE",
+						"chainCode": "EB",
+						"dupeId": "700013278",
+						"name": "The London EDITION",
+						"cityCode": "LON",
+						"latitude": 51.51713,
+						"longitude": -0.13635
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "2H85I3S122",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "R  ",
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "SUPERIOR_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Flexible Rate\nSuperior, 1 Queen(s), Mini fridge,\n19sqm/204sqft-24sqm/258sqft, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "625.00",
+								"total": "625.00",
+								"variations": {
+									"average": {
+										"base": "625.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "625.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "625.00",
+										"deadline": "2023-08-10T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/2H85I3S122"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=EBLONEBE"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "EDLONDER",
+						"chainCode": "ED",
+						"dupeId": "502185711",
+						"name": "ED TEST PROPERTY1",
+						"cityCode": "LON",
+						"latitude": 51.50642,
+						"longitude": -0.1272
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "U93YHWN4WW",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "PRO",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "10.0"
+							},
+							"room": {
+								"type": "A1Q",
+								"typeEstimated": {
+									"beds": 2,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Best Available Rate\nBest Available Rate ",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "100.00",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "100.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "100.00",
+											"total": "100.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-10T15:00:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"MC",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/U93YHWN4WW"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=EDLONDER"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HILON6AA",
+						"chainCode": "HI",
+						"dupeId": "700020449",
+						"name": "HOLIDAY INN OXFORD CIRCUS",
+						"cityCode": "LON",
+						"latitude": 51.51697,
+						"longitude": -0.1492
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "YX2DE4F6EZ",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "*1S",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\n1 Single Bed Standard   15 - 17 Sqm Room with\nBath and Shower over bath High Ceilings Free",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "274.00",
+								"total": "274.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "274.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "274.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:05:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"DS",
+											"BE"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/YX2DE4F6EZ"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HILON6AA"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HILONBE3",
+						"chainCode": "HI",
+						"dupeId": "700024236",
+						"name": "Holiday Inn Exp Victoria Stn",
+						"cityCode": "LON",
+						"latitude": 51.48985,
+						"longitude": -0.13705
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "1KXZ7RBA5K",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "BREAKFAST",
+							"room": {
+								"type": "*RH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\nStandard Room When you arrive at the hotel we\nwill do our best to meet your room type",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "245.00",
+								"total": "245.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "245.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "245.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:05:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"DS",
+											"BE"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/1KXZ7RBA5K"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HILONBE3"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONCHM",
+						"chainCode": "MC",
+						"dupeId": "700060041",
+						"name": "London Marriott Hotel County Hall",
+						"cityCode": "LON",
+						"latitude": 51.50106,
+						"longitude": -0.11927
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "QRYDSWCCXN",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 King,\n30sqm/323sqft-45sqm/484sqft, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "508.00",
+								"total": "508.00",
+								"variations": {
+									"average": {
+										"base": "508.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "508.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "508.00",
+										"deadline": "2023-08-10T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/QRYDSWCCXN"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONCHM"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAKT",
+						"chainCode": "PI",
+						"dupeId": "700135536",
+						"name": "London County Hall",
+						"cityCode": "LON",
+						"latitude": 51.50147,
+						"longitude": -0.11876
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "EITHJ96WIZ",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "210.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "34.17",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "210.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "205.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/EITHJ96WIZ"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAKT"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONBAK",
+						"chainCode": "PI",
+						"dupeId": "700189156",
+						"name": "London Leicester Square",
+						"cityCode": "LON",
+						"latitude": 51.51096,
+						"longitude": -0.13024
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "E9N3HJR42E",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "235.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "38.33",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "235.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "230.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/E9N3HJR42E"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONBAK"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONHOL",
+						"chainCode": "PI",
+						"dupeId": "502308331",
+						"name": "PREMIER INN PROPERTY",
+						"cityCode": "LON",
+						"latitude": 51.50015,
+						"longitude": -0.12624
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "GA8T04GHLZ",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C2T",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 2,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "Twin Room\n2 Single Beds",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "203.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "33.00",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "203.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "198.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+00:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/GA8T04GHLZ"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONHOL"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTLONEAR",
+						"chainCode": "RT",
+						"dupeId": "700013439",
+						"name": "ibis London Earls Court",
+						"cityCode": "LON",
+						"latitude": 51.48622,
+						"longitude": -0.19927
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "QIY4T3IGVD",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "D20",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "ROH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "Happy 20 Rate1234564569877896541-Room only\nRoom for 1 or 2 persons",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "70.20",
+								"variations": {
+									"average": {
+										"base": "70.20"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "70.20",
+											"total": "70.20"
+										}
+									]
+								}
+							},
+							"policies": {
+								"holdTime": {
+									"deadline": "2023-08-11T14:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AH",
+											"AX",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/QIY4T3IGVD"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTLONEAR"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "WHLON464",
+						"chainCode": "WH",
+						"dupeId": "700148725",
+						"name": "W London",
+						"cityCode": "LON",
+						"latitude": 51.51077,
+						"longitude": -0.13169
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "6S06O7Q2RA",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "DKN",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nWonderful Room, 1 King, Mini fridge,\n27sqm/291sqft-31sqm/334sqft, Wireless",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "376.00",
+								"total": "376.00",
+								"variations": {
+									"average": {
+										"base": "376.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "376.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "376.00",
+										"deadline": "2023-08-10T23:59:00+00:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/6S06O7Q2RA"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WHLON464"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "XKLON321",
+						"chainCode": "XK",
+						"dupeId": "501108165",
+						"name": "Hotel London Allocation",
+						"cityCode": "LON",
+						"latitude": 51.50218,
+						"longitude": -0.12714,
+						"contact": {
+							"phone": "020 7222 5152",
+							"fax": "020 7222 5153"
+						}
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "6I2A9A6BUI",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "REQ",
+							"category": "RAC",
+							"description": {
+								"text": "On request rate incl. BRK",
+								"lang": "EN"
+							},
+							"room": {
+								"type": "C1S",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "Single Room",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "120.00",
+								"base": "120.00",
+								"variations": {
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "120.00"
+										}
+									]
+								}
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/6I2A9A6BUI"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=XKLON321"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "BRLONPRB",
+						"chainCode": "BR",
+						"dupeId": "700152304",
+						"name": "St Pancras Renaissance Hotel London",
+						"cityCode": "LON",
+						"latitude": 51.52575,
+						"longitude": -0.13551
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "OE0W61QED4",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Bedroom, Barlow Wing, 1 Queen(s) or 2\nTwins, 25sqm/269sqft, Wireless internet, for",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "319.20",
+								"total": "319.20",
+								"variations": {
+									"average": {
+										"base": "319.20"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "319.20"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "319.20",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/OE0W61QED4"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=BRLONPRB"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HILON257",
+						"chainCode": "HI",
+						"dupeId": "700028152",
+						"name": "HOLIDAY INN CAMDEN LOCK",
+						"cityCode": "LON",
+						"latitude": 51.54023,
+						"longitude": -0.1456
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "W04FFIWDU6",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "*RH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\nStandard Room When you arrive at the hotel we\nwill do our best to meet your room type",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "269.00",
+								"total": "269.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "269.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "269.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:07:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"DS",
+											"BE"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/W04FFIWDU6"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HILON257"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HLLON213",
+						"chainCode": "HL",
+						"dupeId": "700007240",
+						"name": "HILTON LONDON EUSTON",
+						"cityCode": "LON",
+						"latitude": 51.52689,
+						"longitude": -0.13028
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "4ICU0HRDB8",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "8"
+							},
+							"room": {
+								"type": "A00",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE\nSINGLE GUEST ROOM\nGRADE II TOWNHOUSE, DISTINCTIVE DESIGN\nNATURAL DAYLIGHT, WIFI, WORK AREA",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "265.00",
+								"total": "265.00",
+								"variations": {
+									"average": {
+										"base": "265.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "265.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "Plus Taxes and fees where appropriate."
+										},
+										"amount": "265.00",
+										"deadline": "2023-08-11T00:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"VI",
+											"CA",
+											"AX",
+											"DC",
+											"DS",
+											"JC",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/4ICU0HRDB8"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HLLON213"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HLLON364",
+						"chainCode": "HL",
+						"dupeId": "700026363",
+						"name": "DOUBLETREE LONDON WEST END",
+						"cityCode": "LON",
+						"latitude": 51.51985,
+						"longitude": -0.12213
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "77MYVP82KV",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "8"
+							},
+							"room": {
+								"type": "A07",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE\nSINGLE BED GUEST ROOM\nFREE WIFI / HDTV / WORK DESK\nBATHTUB / TEA - COFFEE FACILITIES/ SAFE",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "344.00",
+								"total": "344.00",
+								"variations": {
+									"average": {
+										"base": "344.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "344.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "Plus Taxes and fees where appropriate."
+										},
+										"amount": "344.00",
+										"deadline": "2023-08-11T00:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"VI",
+											"CA",
+											"AX",
+											"DC",
+											"DS",
+											"JC",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/77MYVP82KV"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HLLON364"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HLLON555",
+						"chainCode": "HL",
+						"dupeId": "700013395",
+						"name": "THE WALDORF HILTON",
+						"cityCode": "LON",
+						"latitude": 51.51264,
+						"longitude": -0.11937
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "M488F2NEAZ",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"commission": {
+								"percentage": "8"
+							},
+							"room": {
+								"type": "A03",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "DOUBLE"
+								},
+								"description": {
+									"text": "FLEXIBLE RATE\nQUEEN GUEST ROOM\nDOUBLE BED IN CONTEMPORARY SETTING\nPLASMA TV RAINDROP SHOWER MODEM POINT",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "362.00",
+								"total": "362.00",
+								"variations": {
+									"average": {
+										"base": "362.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "362.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"description": {
+											"text": "Plus Taxes and fees where appropriate."
+										},
+										"amount": "362.00",
+										"deadline": "2023-08-11T00:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"VI",
+											"CA",
+											"AX",
+											"DC",
+											"DS",
+											"JC",
+											"CU"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/M488F2NEAZ"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HLLON555"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONRPK",
+						"chainCode": "MC",
+						"dupeId": "700024233",
+						"name": "London Marriott Hotel Regents Park",
+						"cityCode": "LON",
+						"latitude": 51.54187,
+						"longitude": -0.17099
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "SRFWTKSPV9",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "KSO",
+								"typeEstimated": {
+									"category": "SUPERIOR_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nSuperior, Balcony, 1 King, Sofa bed,\n26sqm/280sqft-35sqm/377sqft, Living/sitting",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "287.00",
+								"total": "287.00",
+								"variations": {
+									"average": {
+										"base": "287.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "287.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "287.00",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/SRFWTKSPV9"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONRPK"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "MCLONWHM",
+						"chainCode": "MC",
+						"dupeId": "700024272",
+						"name": "London Marriott Hotel Maida Vale",
+						"cityCode": "LON",
+						"latitude": 51.5357,
+						"longitude": -0.19013
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "YEBD59SDMK",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "S9R",
+							"rateFamilyEstimated": {
+								"code": "SRS",
+								"type": "C"
+							},
+							"room": {
+								"type": "GEN",
+								"typeEstimated": {
+									"category": "DELUXE_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe King Room, 1 King, Mini fridge,\n25sqm/269sqft, Wireless internet, for a fee,",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "207.00",
+								"total": "207.00",
+								"variations": {
+									"average": {
+										"base": "207.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "207.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"amount": "207.00",
+										"deadline": "2023-08-10T23:59:00+01:00"
+									}
+								],
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/YEBD59SDMK"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLONWHM"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAKU",
+						"chainCode": "PI",
+						"dupeId": "700135537",
+						"name": "London Euston",
+						"cityCode": "LON",
+						"latitude": 51.52774,
+						"longitude": -0.12906
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "B0DZAOJ3XY",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "DOUBLE"
+								},
+								"description": {
+									"text": "Standard double room - 1 Adult, non-smoking",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "187.00",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "31.17",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "0.00",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "187.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "187.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-07-14T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/B0DZAOJ3XY"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAKU"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAKV",
+						"chainCode": "PI",
+						"dupeId": "700055828",
+						"name": "London Putney Bridge",
+						"cityCode": "LON",
+						"latitude": 51.46759,
+						"longitude": -0.21115
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "X5TGKR99LO",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "212.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "34.50",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "212.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "207.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/X5TGKR99LO"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAKV"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAQO",
+						"chainCode": "PI",
+						"dupeId": "700076569",
+						"name": "London Kings Cross",
+						"cityCode": "LON",
+						"latitude": 51.532,
+						"longitude": -0.12209
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "1C37ZJG44M",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "227.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "37.00",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "227.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "222.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/1C37ZJG44M"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAQO"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONATC",
+						"chainCode": "PI",
+						"dupeId": "700135539",
+						"name": "London Southwark (Bankside)",
+						"cityCode": "LON",
+						"latitude": 51.50672,
+						"longitude": -0.09265
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "NLSQX87HKS",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "187.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "30.33",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "187.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "182.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/NLSQX87HKS"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONATC"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONAUV",
+						"chainCode": "PI",
+						"dupeId": "700013886",
+						"name": "London Hammersmith",
+						"cityCode": "LON",
+						"latitude": 51.49309,
+						"longitude": -0.23853
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "8E9BMW4DR9",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1S",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "SINGLE"
+								},
+								"description": {
+									"text": "Single Room\n1 Single Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "141.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "22.67",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "141.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "136.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/8E9BMW4DR9"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONAUV"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONBBD",
+						"chainCode": "PI",
+						"dupeId": "700189814",
+						"name": "London Southwark (Tate Modern)",
+						"cityCode": "LON",
+						"latitude": 51.50477,
+						"longitude": -0.10147
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "CVVQ4DDWP4",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "190.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "30.83",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "190.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "185.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/CVVQ4DDWP4"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONBBD"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONBBE",
+						"chainCode": "PI",
+						"dupeId": "700189809",
+						"name": "London Blackfriars",
+						"cityCode": "LON",
+						"latitude": 51.5131,
+						"longitude": -0.10561
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "4T0MEKB7S5",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "187.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "30.33",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "187.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "182.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/4T0MEKB7S5"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONBBE"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "PILONBBY",
+						"chainCode": "PI",
+						"dupeId": "700189816",
+						"name": "London Waterloo",
+						"cityCode": "LON",
+						"latitude": 51.50329,
+						"longitude": -0.11521
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "U2BL0ZMN7V",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "RAC",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "C1K",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "KING"
+								},
+								"description": {
+									"text": "Double Room\n1 King Bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "234.63",
+								"taxes": [
+									{
+										"code": "VAT_GST_TAX",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "38.17",
+										"currency": "GBP",
+										"included": true
+									},
+									{
+										"code": "SERVICE_CHARGE",
+										"pricingFrequency": "PER_STAY",
+										"pricingMode": "PER_PRODUCT",
+										"amount": "5.63",
+										"currency": "GBP",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"total": "234.63"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"total": "229.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-11T13:00:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"CA",
+											"AX",
+											"AT",
+											"DC",
+											"DL",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/U2BL0ZMN7V"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=PILONBBY"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTLONCTS",
+						"chainCode": "RT",
+						"dupeId": "700027664",
+						"name": "Novotel London City South",
+						"cityCode": "LON",
+						"latitude": 51.50572,
+						"longitude": -0.09541
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "3V3VN774BX",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "1SL",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "A1Q",
+								"typeEstimated": {
+									"category": "SUPERIOR_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Best Rate-Room only\nSuperior Room with Queen bed + convertible Sofa",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "65.33",
+								"variations": {
+									"average": {
+										"base": "65.33"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "65.33",
+											"total": "65.33"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-10T00:00:00+01:00"
+									}
+								],
+								"holdTime": {
+									"deadline": "2023-08-11T14:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AH",
+											"AX",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"VI"
+										],
+										"methods": [
+											"TRAVEL_AGENT_ID",
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/3V3VN774BX"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTLONCTS"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTLONNOV",
+						"chainCode": "RT",
+						"dupeId": "700020450",
+						"name": "Novotel London West",
+						"cityCode": "LON",
+						"latitude": 51.49211,
+						"longitude": -0.21976
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "GRJKVGV72V",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "1SL",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "B1Q",
+								"typeEstimated": {
+									"category": "SUPERIOR_ROOM",
+									"beds": 1,
+									"bedType": "QUEEN"
+								},
+								"description": {
+									"text": "Best Rate-Room only\nSuperior Room with Queen bed + convertible Sofa",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"total": "224.58",
+								"variations": {
+									"average": {
+										"base": "224.58"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "224.58",
+											"total": "224.58"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"deadline": "2023-08-10T00:00:00+01:00"
+									}
+								],
+								"holdTime": {
+									"deadline": "2023-08-11T14:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AH",
+											"AX",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"JC",
+											"SW"
+										],
+										"methods": [
+											"TRAVEL_AGENT_ID",
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/GRJKVGV72V"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTLONNOV"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "YZLONE16",
+						"chainCode": "YZ",
+						"dupeId": "501433155",
+						"name": "Staybridge Stes Vauxhall",
+						"cityCode": "LON",
+						"latitude": 51.48944,
+						"longitude": -0.1211
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "0E9OX5YTLA",
+							"checkInDate": "2023-08-11",
+							"checkOutDate": "2023-08-12",
+							"rateCode": "57J",
+							"rateFamilyEstimated": {
+								"code": "BAR",
+								"type": "P"
+							},
+							"boardType": "BREAKFAST",
+							"room": {
+								"type": "*RH",
+								"typeEstimated": {
+									"category": "SUITE"
+								},
+								"description": {
+									"text": "BEST FLEXIBLE RATE\nStudio Suite When you arrive at the hotel we\nwill do our best to meet your room type",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "GBP",
+								"base": "285.00",
+								"total": "285.00",
+								"taxes": [
+									{
+										"code": "MISCELLANEOUS",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_PRODUCT",
+										"percentage": "20.00",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "285.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-11",
+											"endDate": "2023-08-12",
+											"base": "285.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 1,
+										"deadline": "2023-08-11T14:07:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"VI",
+											"CA",
+											"DC",
+											"CB",
+											"DS",
+											"BE"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/0E9OX5YTLA"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=YZLONE16"
+				}
+			]
+		}
+	},
+	{
+		"id": "4b1ddba2-c742-4099-a64d-5611f65ad62f",
+		"createdAt": "1691755278095",
+		"updatedAt": "1692885510641",
+		"createdBy": "emmanuella.ndukwe@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "MAD",
+		"hotelsAvailable": {
+			"data": [
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTMADIIS",
+						"chainCode": "RT",
+						"dupeId": "700094555",
+						"name": "ibis Madrid Aeropuerto Barajas",
+						"cityCode": "MAD",
+						"latitude": 40.47023,
+						"longitude": -3.58066
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "VTSF0NAB1K",
+							"checkInDate": "2023-08-17",
+							"checkOutDate": "2023-08-18",
+							"rateCode": "RA3",
+							"rateFamilyEstimated": {
+								"code": "PRO",
+								"type": "P"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "ROH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "MRate avail ADVANCE SAVER-Room only\nRoom for 1 or 2 persons",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "EUR",
+								"total": "52.00",
+								"variations": {
+									"average": {
+										"base": "52.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-17",
+											"endDate": "2023-08-18",
+											"base": "52.00",
+											"total": "52.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"holdTime": {
+									"deadline": "2023-08-17T19:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/VTSF0NAB1K"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTMADIIS&adults=1&checkInDate=2023-08-17&checkOutDate=2023-08-18&currency=EUR&paymentPolicy=NONE&roomQuantity=1"
+				}
+			]
+		}
+	},
+	{
+		"id": "36c15b04-437e-4367-a2ff-db06c796a246",
+		"createdAt": "1692888770887",
+		"updatedAt": "1692888770887",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "PAR",
+		"hotelsAvailable": {
+			"data": [
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HNPARKGU",
+						"chainCode": "HN",
+						"dupeId": "502345064",
+						"name": "Test Property",
+						"cityCode": "PAR",
+						"latitude": 48.85315,
+						"longitude": 2.34513,
+						"contact": {
+							"phone": "+091 08351 895623147"
+						}
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "Q1MKILFFS9",
+							"checkInDate": "2023-11-24",
+							"checkOutDate": "2023-11-28",
+							"rateCode": "DTN",
+							"description": {
+								"text": "This is the best Weekend rate plan",
+								"lang": "EN"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "A**",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "Room with sea view",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "EUR",
+								"base": "144.00",
+								"total": "184.00",
+								"taxes": [
+									{
+										"amount": "40.00",
+										"currency": "EUR"
+									},
+									{
+										"code": "MAINTENANCE_FEE",
+										"amount": "40.00",
+										"currency": "EUR",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "36.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-11-24",
+											"endDate": "2023-11-28",
+											"base": "36.00"
+										}
+									]
+								}
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/Q1MKILFFS9"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HNPARKGU&adults=1&checkInDate=2023-11-24&checkOutDate=2023-11-28&currency=EUR&paymentPolicy=NONE&roomQuantity=1"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "HSPARCEN",
+						"chainCode": "HS",
+						"dupeId": "700158050",
+						"name": "Hotel des Halles",
+						"cityCode": "PAR",
+						"latitude": 48.85922,
+						"longitude": 2.3473
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "7JQ8ESULVV",
+							"checkInDate": "2023-11-24",
+							"checkOutDate": "2023-11-28",
+							"rateCode": "RAC",
+							"commission": {
+								"percentage": "4.00"
+							},
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "ROH",
+								"typeEstimated": {
+									"category": "ACCESSIBLE_ROOM",
+									"beds": 1,
+									"bedType": "DOUBLE"
+								},
+								"description": {
+									"text": "Studio - Extra-person charges may apply and vary depending on pr\nAppartment 1 Double BedSoundproofed roomInternet - Free WiFi Entertainment - Flat-screen TV with satellite channelsFood - Drink - Kitchenette with refrigerator, stovetop, microwave, and dishwasherSleep - Bed sheets Bathroom - Shower-tub combination, free toiletries, and a hair dryerPractical - Safe, iron-ironing board, and deskComfort - Air conditioning and daily housekeepingAccessibility - Hand-held showerhead, grab bar near toilet, wheelchair accessible, low-height door lock, low-height desk, low-height bed, low-height view port in door, low-height counter and sink, and wheelchair-width doorwaysNeed to Know - Housekeeping on request, toothbrush and toothpaste not availableNon-Smoking, pet friendly",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "EUR",
+								"base": "848.00",
+								"total": "848.00",
+								"variations": {
+									"average": {
+										"base": "212.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-11-24",
+											"endDate": "2023-11-28",
+											"total": "212.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"cancellations": [
+									{
+										"numberOfNights": 4,
+										"deadline": "2023-11-23T22:59:00+01:00"
+									}
+								],
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"DC",
+											"DN",
+											"VI",
+											"MC",
+											"CA",
+											"AX",
+											"JC"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/7JQ8ESULVV"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HSPARCEN&adults=1&checkInDate=2023-11-24&checkOutDate=2023-11-28&currency=EUR&paymentPolicy=NONE&roomQuantity=1"
+				},
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTPARSOR",
+						"chainCode": "RT",
+						"dupeId": "700043120",
+						"name": "Hotel de Test",
+						"cityCode": "PAR",
+						"latitude": 48.84917,
+						"longitude": 2.34301
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "TS3B7DTW1T",
+							"checkInDate": "2023-11-24",
+							"checkOutDate": "2023-11-28",
+							"rateCode": "EAM",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "A1D",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM",
+									"beds": 1,
+									"bedType": "DOUBLE"
+								},
+								"description": {
+									"text": "Mercure Breaks-Early / RO-Room only\nStandard Room with 1 double bed",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "EUR",
+								"total": "658.00",
+								"variations": {
+									"average": {
+										"base": "164.50"
+									},
+									"changes": [
+										{
+											"startDate": "2023-11-24",
+											"endDate": "2023-11-28",
+											"base": "164.50",
+											"total": "164.50"
+										}
+									]
+								}
+							},
+							"policies": {
+								"holdTime": {
+									"deadline": "2023-11-24T18:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"BF",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"JC",
+											"VI"
+										],
+										"methods": [
+											"TRAVEL_AGENT_ID",
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/TS3B7DTW1T"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTPARSOR&adults=1&checkInDate=2023-11-24&checkOutDate=2023-11-28&currency=EUR&paymentPolicy=NONE&roomQuantity=1"
+				}
+			]
+		}
+	},
+	{
+		"id": "07a65a88-2dce-478a-974b-1c529694670c",
+		"createdAt": "1691755456040",
+		"updatedAt": "1692885510641",
+		"createdBy": "emmanuella.ndukwe@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"location": "BAR",
+		"hotelsAvailable": {
+			"data": [
+				{
+					"type": "hotel-offers",
+					"hotel": {
+						"type": "hotel",
+						"hotelId": "RTBCNVLD",
+						"chainCode": "RT",
+						"dupeId": "700094688",
+						"name": "ibis Barcelona Aeropuerto Viladecans",
+						"cityCode": "BCN",
+						"latitude": 41.32191,
+						"longitude": 2.02876
+					},
+					"available": true,
+					"offers": [
+						{
+							"id": "CBTUKNCYUA",
+							"checkInDate": "2023-08-17",
+							"checkOutDate": "2023-08-18",
+							"rateCode": "D20",
+							"boardType": "ROOM_ONLY",
+							"room": {
+								"type": "ROH",
+								"typeEstimated": {
+									"category": "STANDARD_ROOM"
+								},
+								"description": {
+									"text": "Happy 20 Rate1234564569877896541-Room only\nRoom for one or two persons equipped with thene\nw bedding",
+									"lang": "EN"
+								}
+							},
+							"guests": {
+								"adults": 1
+							},
+							"price": {
+								"currency": "EUR",
+								"total": "45.50",
+								"taxes": [
+									{
+										"code": "CITY_TAX",
+										"pricingFrequency": "PER_NIGHT",
+										"pricingMode": "PER_OCCUPANT",
+										"amount": "0.50",
+										"currency": "EUR",
+										"included": true
+									}
+								],
+								"variations": {
+									"average": {
+										"base": "45.00"
+									},
+									"changes": [
+										{
+											"startDate": "2023-08-17",
+											"endDate": "2023-08-18",
+											"base": "45.00"
+										}
+									]
+								}
+							},
+							"policies": {
+								"holdTime": {
+									"deadline": "2023-08-17T19:00:00"
+								},
+								"guarantee": {
+									"acceptedPayments": {
+										"creditCards": [
+											"AX",
+											"CA",
+											"DC",
+											"EC",
+											"IK",
+											"JC",
+											"VI"
+										],
+										"methods": [
+											"CREDIT_CARD"
+										]
+									}
+								},
+								"paymentType": "guarantee"
+							},
+							"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers/CBTUKNCYUA"
+						}
+					],
+					"self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RTBCNVLD&adults=1&checkInDate=2023-08-17&checkOutDate=2023-08-18&currency=EUR&paymentPolicy=NONE&roomQuantity=1"
+				}
+			]
+		}
+	}
+]

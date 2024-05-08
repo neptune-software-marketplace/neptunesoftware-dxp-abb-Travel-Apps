@@ -1,0 +1,29 @@
+
+// var options = {
+//     headers: {
+//         "x-rapidapi-key": dataKey, // Required. 
+//         "x-rapidapi-host": dataHost // Required. 
+//     },
+//     parameters: {
+//         "query": oInputSLocation.getValue(), // Required 
+//         "lang": "", // Optional 
+//         "units": "" // Optional 
+//     }
+// };
+// oApp.setBusy(true);
+// apioAPIGetLocationList(options);
+
+// Call table api
+var options = {
+    parameters: {
+        "where": "", // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+
+apioAPIamadeusLocationsSearch(options);
+
+oApp.setBusy(true);

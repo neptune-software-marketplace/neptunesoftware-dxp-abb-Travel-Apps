@@ -1,0 +1,6302 @@
+[
+	{
+		"id": "dc3e3ad3-d35a-4777-b6ba-c4e61a2de814",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Madeleine",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:56:06Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "44e2fdd8-a24c-496a-a32e-0454eba63b28"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 159.94,
+							"reservation_total": 159.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 185.42,
+							"reservation_total": 185.42
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 205.39,
+							"reservation_total": 205.39
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 308.29,
+							"reservation_total": 308.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 227.94,
+							"reservation_total": 227.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Toyota ProAce or similar",
+						"make": "Toyota",
+						"model": "ProAce",
+						"sipp_code": "PVMR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Full-Size Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2017/toyota/2017-toyota-proace-verso-combi-passenger-van-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "9",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "V2I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 667.27,
+							"reservation_total": 681.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 530.26,
+							"reservation_total": 530.26
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "LM3",
+						"name": "Paris Lourmel Dtn",
+						"telephone": "(33) 1 45 57 53 57",
+						"hours": "Mon - Fri 8:00 AM - 12:00 PM and 1:00 PM - 6:30 PM; Sat 8:00 AM - 1:30 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "105 Rue De Lourmel 15th",
+						"address_line_2": "Na",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "LM3",
+						"name": "Paris Lourmel Dtn",
+						"telephone": "(33) 1 45 57 53 57",
+						"hours": "Mon - Fri 8:00 AM - 12:00 PM and 1:00 PM - 6:30 PM; Sat 8:00 AM - 1:30 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "105 Rue De Lourmel 15th",
+						"address_line_2": "Na",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/LM3/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "cadfa0cd-27f1-4ef5-9a87-73d43317e3c4",
+		"createdAt": "1692979648035",
+		"updatedAt": "1692979648035",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Madrid Atocha Rail Station",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:04:10Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "56e448fe-7224-482f-8104-962cb6e11804"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 130.56,
+							"reservation_total": 157.98
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Seat Ibiza or similar",
+						"make": "Seat",
+						"model": "Ibiza",
+						"sipp_code": "EDMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/seat/2018-seat-ibiza-reference-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 138.56,
+							"reservation_total": 167.66
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Ford Focus or similar",
+						"make": "Ford",
+						"model": "Focus",
+						"sipp_code": "CCMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-active-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 150.88,
+							"reservation_total": 182.56
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Opel Crossland X or similar",
+						"make": "Opel",
+						"model": "Crossland X",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 229.6,
+							"reservation_total": 277.82
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Renault Captur or similar",
+						"make": "Renault",
+						"model": "Captur",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/renault/2015-renault-captur-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 268.2,
+							"reservation_total": 324.52
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Renault Scenic or similar",
+						"make": "Renault",
+						"model": "Scenic",
+						"sipp_code": "IFMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Intermediate Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/renault/2018-renault-grand-scenic-initiale-paris-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 240.12,
+							"reservation_total": 290.55
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Opel Grandland X or similar",
+						"make": "Opel",
+						"model": "Grandland X",
+						"sipp_code": "DDMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 247.76,
+							"reservation_total": 299.79
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "S6P",
+						"name": "Atocha Rail Station",
+						"telephone": "(34) 902110291",
+						"hours": "Sun 8:00 AM - 11:30 PM; Mon - Sat 8:00 AM - 11:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Estacion Atocha Parking P3",
+						"address_line_2": "Glorieta Atocha Sin",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28045",
+						"country_code": "ES"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "S6P",
+						"name": "Atocha Rail Station",
+						"telephone": "(34) 902110291",
+						"hours": "Sun 8:00 AM - 11:30 PM; Mon - Sat 8:00 AM - 11:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Estacion Atocha Parking P3",
+						"address_line_2": "Glorieta Atocha Sin",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28045",
+						"country_code": "ES"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/ES/S6P/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "b2ccd0a4-05aa-46ee-bdfc-136b390ca945",
+		"createdAt": "1692979648035",
+		"updatedAt": "1692979648035",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Madrid Estacion De Tren De Chamartin",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:04:34Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "0cb7368b-25f6-4f22-918a-122c8ca85374"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 130.56,
+							"reservation_total": 157.98
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Seat Ibiza or similar",
+						"make": "Seat",
+						"model": "Ibiza",
+						"sipp_code": "EDMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/seat/2018-seat-ibiza-reference-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 138.56,
+							"reservation_total": 167.66
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Ford Focus or similar",
+						"make": "Ford",
+						"model": "Focus",
+						"sipp_code": "CCMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-active-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 150.88,
+							"reservation_total": 182.56
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Opel Crossland X or similar",
+						"make": "Opel",
+						"model": "Crossland X",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 229.6,
+							"reservation_total": 277.82
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Renault Captur or similar",
+						"make": "Renault",
+						"model": "Captur",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/renault/2015-renault-captur-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 268.2,
+							"reservation_total": 324.52
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Renault Scenic or similar",
+						"make": "Renault",
+						"model": "Scenic",
+						"sipp_code": "IFMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Intermediate Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/renault/2018-renault-grand-scenic-initiale-paris-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 240.12,
+							"reservation_total": 290.55
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Opel Grandland X or similar",
+						"make": "Opel",
+						"model": "Grandland X",
+						"sipp_code": "DDMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 247.76,
+							"reservation_total": 299.79
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "MD7",
+						"name": "Estacion De Tren De Chamartin",
+						"telephone": "(34) 902090343",
+						"hours": "Sun 9:00 AM - 12:45 PM; Mon - Fri 8:00 AM - 9:45 PM; Sat 9:00 AM - 12:45 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Calle Agustin De Foxa S/n",
+						"address_line_2": "Na",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28036",
+						"country_code": "ES"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "MD7",
+						"name": "Estacion De Tren De Chamartin",
+						"telephone": "(34) 902090343",
+						"hours": "Sun 9:00 AM - 12:45 PM; Mon - Fri 8:00 AM - 9:45 PM; Sat 9:00 AM - 12:45 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Calle Agustin De Foxa S/n",
+						"address_line_2": "Na",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28036",
+						"country_code": "ES"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/ES/MD7/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "a331d8b9-6c30-4909-a451-5ae5a7375ea6",
+		"createdAt": "1692979954147",
+		"updatedAt": "1692979954147",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "London City Airport",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:12:18Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "cc94e2bf-e10f-43f4-a4ab-6c6a0d8ceda3"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 361.75,
+							"reservation_total": 419.63
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 278.64,
+							"reservation_total": 323.22
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CBMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Crossover Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-2008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 290.28,
+							"reservation_total": 336.72
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Peugeot 3008 or similar",
+						"make": "Peugeot",
+						"model": "3008",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 407.56,
+							"reservation_total": 472.77
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Vauxhall Crossland or similar",
+						"make": "Vauxhall",
+						"model": "Crossland",
+						"sipp_code": "CGMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 290.28,
+							"reservation_total": 336.72
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Standard Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 407.56,
+							"reservation_total": 472.77
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "CWMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Economy",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 403.75,
+							"reservation_total": 468.35
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Skoda Octavia or similar",
+						"make": "Skoda",
+						"model": "Octavia",
+						"sipp_code": "SWMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Standard Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/skoda/2020-skoda-octavia-combi-rs-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 624.88,
+							"reservation_total": 724.86
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - MG ZS Auto or similar",
+						"make": "MG",
+						"model": "ZS Auto",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/etc/designs/avis/reservationlib/clientlib/images/image-unavailable.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 417.42,
+							"reservation_total": 484.21
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group J - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "IDAR",
+						"vehicle_class_code": "J",
+						"vehicle_class_name": "Standard",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 436.84,
+							"reservation_total": 506.73
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Mercedes-Benz C Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "C Class",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Premium",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/mercedes/2022-mercedes-benz-c-class-c300-amg-line-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 643.52,
+							"reservation_total": 746.48
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group L - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVAR",
+						"vehicle_class_code": "L",
+						"vehicle_class_name": "Standard Van",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 1381.21,
+							"reservation_total": 1602.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Mercedes-Benz E Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "E Class",
+						"sipp_code": "LDAR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Luxury",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/mercedes/2021-mercedes-benz-e-class-63-s-amg-4wd-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 722.17,
+							"reservation_total": 837.72
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 1022.21,
+							"reservation_total": 1185.76
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group P - Volkswagen Golf or similar",
+						"make": "Volkswagen",
+						"model": "Golf",
+						"sipp_code": "CXMR",
+						"vehicle_class_code": "P",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/volkswagen/2021-volkswagen-golf-gti-se-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 247.79,
+							"reservation_total": 287.44
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "LCY",
+						"name": "London City Airport",
+						"telephone": "(44) 03445446030",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon 8:00 AM - 6:00 PM; Tue - Wed 8:00 AM - 4:00 PM; Thu 8:00 AM - 6:00 PM; Fri 8:00 AM - 8:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": true
+					},
+					"address": {
+						"address_line_1": "Terminal Building",
+						"address_line_2": "The Royal Docks",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "E16 2PX",
+						"country_code": "GB"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "LCY",
+						"name": "London City Airport",
+						"telephone": "(44) 03445446030",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon 8:00 AM - 6:00 PM; Tue - Wed 8:00 AM - 4:00 PM; Thu 8:00 AM - 6:00 PM; Fri 8:00 AM - 8:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": true
+					},
+					"address": {
+						"address_line_1": "Terminal Building",
+						"address_line_2": "The Royal Docks",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "E16 2PX",
+						"country_code": "GB"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/GB/LCY/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "961b7e0f-3412-472e-b470-0cefdd20dc82",
+		"createdAt": "1692979928269",
+		"updatedAt": "1692979928269",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "London Battersea",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:11:44Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "6f79702f-02ec-4f99-8134-b57b27bd14f4"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 388.84,
+							"reservation_total": 451.05
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 296.88,
+							"reservation_total": 344.38
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CBMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Crossover Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-2008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 311.78,
+							"reservation_total": 361.66
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Peugeot 3008 or similar",
+						"make": "Peugeot",
+						"model": "3008",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 468.76,
+							"reservation_total": 543.76
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Vauxhall Crossland or similar",
+						"make": "Vauxhall",
+						"model": "Crossland",
+						"sipp_code": "CGMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 311.78,
+							"reservation_total": 361.66
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Standard Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 491.33,
+							"reservation_total": 569.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "CWMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Economy",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 435.79,
+							"reservation_total": 505.52
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Skoda Octavia or similar",
+						"make": "Skoda",
+						"model": "Octavia",
+						"sipp_code": "SWMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Standard Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/skoda/2020-skoda-octavia-combi-rs-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 624.88,
+							"reservation_total": 724.86
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - MG ZS Auto or similar",
+						"make": "MG",
+						"model": "ZS Auto",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/etc/designs/avis/reservationlib/clientlib/images/image-unavailable.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 451.15,
+							"reservation_total": 523.33
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group J - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "IDAR",
+						"vehicle_class_code": "J",
+						"vehicle_class_name": "Standard",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 614.86,
+							"reservation_total": 713.24
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Mercedes-Benz C Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "C Class",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Premium",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/mercedes/2022-mercedes-benz-c-class-c300-amg-line-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 746.98,
+							"reservation_total": 866.5
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group L - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVAR",
+						"vehicle_class_code": "L",
+						"vehicle_class_name": "Standard Van",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "2XI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 1107.38,
+							"reservation_total": 1284.56
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group M - Mercedes-Benz A Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "A Class",
+						"sipp_code": "CCMR",
+						"vehicle_class_code": "M",
+						"vehicle_class_name": "Compact Elite",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2016/mercedes/2016-mercedes-benz-a-class-fascination-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 378.88,
+							"reservation_total": 439.5
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Mercedes-Benz E Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "E Class",
+						"sipp_code": "LDAR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Luxury",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/mercedes/2021-mercedes-benz-e-class-63-s-amg-4wd-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 807.28,
+							"reservation_total": 936.45
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 1013.53,
+							"reservation_total": 1175.7
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group P - Volkswagen Golf or similar",
+						"make": "Volkswagen",
+						"model": "Golf",
+						"sipp_code": "CXMR",
+						"vehicle_class_code": "P",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/volkswagen/2021-volkswagen-golf-gti-se-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 246.64,
+							"reservation_total": 286.1
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "G02",
+						"name": "London Battersea",
+						"telephone": "(44) 03445447033",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "145 Battersea Park Road",
+						"address_line_2": "Battersea",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW8 4BX",
+						"country_code": "GB"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "G02",
+						"name": "London Battersea",
+						"telephone": "(44) 03445447033",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "145 Battersea Park Road",
+						"address_line_2": "Battersea",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW8 4BX",
+						"country_code": "GB"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/GB/G02/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "81e4a022-8e2d-4392-8056-1b2d13244a4a",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Lourmel Dtn",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:56:06Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "44e2fdd8-a24c-496a-a32e-0454eba63b28"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 159.94,
+							"reservation_total": 159.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 185.42,
+							"reservation_total": 185.42
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 205.39,
+							"reservation_total": 205.39
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 308.29,
+							"reservation_total": 308.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 227.94,
+							"reservation_total": 227.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Toyota ProAce or similar",
+						"make": "Toyota",
+						"model": "ProAce",
+						"sipp_code": "PVMR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Full-Size Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2017/toyota/2017-toyota-proace-verso-combi-passenger-van-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "9",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "V2I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 667.27,
+							"reservation_total": 681.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 530.26,
+							"reservation_total": 530.26
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "LM3",
+						"name": "Paris Lourmel Dtn",
+						"telephone": "(33) 1 45 57 53 57",
+						"hours": "Mon - Fri 8:00 AM - 12:00 PM and 1:00 PM - 6:30 PM; Sat 8:00 AM - 1:30 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "105 Rue De Lourmel 15th",
+						"address_line_2": "Na",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "LM3",
+						"name": "Paris Lourmel Dtn",
+						"telephone": "(33) 1 45 57 53 57",
+						"hours": "Mon - Fri 8:00 AM - 12:00 PM and 1:00 PM - 6:30 PM; Sat 8:00 AM - 1:30 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "105 Rue De Lourmel 15th",
+						"address_line_2": "Na",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75015",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/LM3/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "522585a5-146f-4c17-b059-a1ad5e203444",
+		"createdAt": "1692979648035",
+		"updatedAt": "1692979648035",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Madrid Barajas Airport T1/T4",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:05:03Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "c44c034f-e018-4960-ad89-d474c67021b8"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 143.6,
+							"reservation_total": 173.76
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Seat Ibiza or similar",
+						"make": "Seat",
+						"model": "Ibiza",
+						"sipp_code": "EDMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/seat/2018-seat-ibiza-reference-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 152.4,
+							"reservation_total": 184.4
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Ford Focus or similar",
+						"make": "Ford",
+						"model": "Focus",
+						"sipp_code": "CCMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-active-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 165.96,
+							"reservation_total": 200.81
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Opel Crossland X or similar",
+						"make": "Opel",
+						"model": "Crossland X",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 252.56,
+							"reservation_total": 305.6
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Renault Captur or similar",
+						"make": "Renault",
+						"model": "Captur",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/renault/2015-renault-captur-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 295.04,
+							"reservation_total": 357
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Renault Scenic or similar",
+						"make": "Renault",
+						"model": "Scenic",
+						"sipp_code": "IFMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Intermediate Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/renault/2018-renault-grand-scenic-initiale-paris-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 264.12,
+							"reservation_total": 319.59
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Opel Grandland X or similar",
+						"make": "Opel",
+						"model": "Grandland X",
+						"sipp_code": "DDMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "G7I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 272.52,
+							"reservation_total": 329.75
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "MAD",
+						"name": "Madrid-barajas Airport T1/t4",
+						"telephone": "(34) 902200162",
+						"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 8:00 AM - 12:30 AM; Sat 8:00 AM - 10:30 PM",
+						"airport_location": true
+					},
+					"address": {
+						"address_line_1": "Madrid Apt T1&t4 Service",
+						"address_line_2": "Parking P1 & P4",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28042",
+						"country_code": "ES"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "MAD",
+						"name": "Madrid-barajas Airport T1/t4",
+						"telephone": "(34) 902200162",
+						"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 8:00 AM - 12:30 AM; Sat 8:00 AM - 10:30 PM",
+						"airport_location": true
+					},
+					"address": {
+						"address_line_1": "Madrid Apt T1&t4 Service",
+						"address_line_2": "Parking P1 & P4",
+						"city": "Madrid",
+						"state_name": "XX",
+						"postal_code": "28042",
+						"country_code": "ES"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/ES/MAD/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "44dd3e5b-b5eb-40ce-87a8-c1b5c0efa11c",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Rail Station Est",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:56:38Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "70e8206e-aee9-4330-9afc-ed15e22b90ed"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 133,
+							"reservation_total": 159.6
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 181,
+							"reservation_total": 217.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 209,
+							"reservation_total": 250.8
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 173,
+							"reservation_total": 207.6
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 218.82,
+							"reservation_total": 218.82
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Toyota ProAce or similar",
+						"make": "Toyota",
+						"model": "ProAce",
+						"sipp_code": "PVMR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Full-Size Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2017/toyota/2017-toyota-proace-verso-combi-passenger-van-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "9",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 437,
+							"reservation_total": 524.4
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 377.9,
+							"reservation_total": 377.9
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "AE4",
+						"name": "Paris Rail Station Du Nord",
+						"telephone": "(33) 8 20 61 16 24",
+						"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "03 Rue De Compiegne",
+						"address_line_2": "112 Rue De Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "AE4",
+						"name": "Paris Rail Station Du Nord",
+						"telephone": "(33) 8 20 61 16 24",
+						"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "03 Rue De Compiegne",
+						"address_line_2": "112 Rue De Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/AE4/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "3d0961b8-2c99-4416-aaad-87d9a76d52a7",
+		"createdAt": "1692979928269",
+		"updatedAt": "1692979928269",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "London Victoria Coach & Rail",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:09:41Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "27fed47e-4241-49af-b133-9f354b5b4176"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 388.84,
+							"reservation_total": 466.61
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 296.88,
+							"reservation_total": 356.26
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CBMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Crossover Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-2008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 297,
+							"reservation_total": 366.48
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Peugeot 3008 or similar",
+						"make": "Peugeot",
+						"model": "3008",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 330,
+							"reservation_total": 406.08
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Vauxhall Crossland or similar",
+						"make": "Vauxhall",
+						"model": "Crossland",
+						"sipp_code": "CGMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 297,
+							"reservation_total": 366.48
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Standard Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 419.4,
+							"reservation_total": 513.36
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "CWMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Economy",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 420.16,
+							"reservation_total": 514.28
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Skoda Octavia or similar",
+						"make": "Skoda",
+						"model": "Octavia",
+						"sipp_code": "SWMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Standard Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/skoda/2020-skoda-octavia-combi-rs-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 460.7,
+							"reservation_total": 562.92
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - MG ZS Auto or similar",
+						"make": "MG",
+						"model": "ZS Auto",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/etc/designs/avis/reservationlib/clientlib/images/image-unavailable.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 434.7,
+							"reservation_total": 531.72
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group J - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "IDAR",
+						"vehicle_class_code": "J",
+						"vehicle_class_name": "Standard",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 450,
+							"reservation_total": 550.08
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Mercedes-Benz C Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "C Class",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Premium",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/mercedes/2022-mercedes-benz-c-class-c300-amg-line-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 468,
+							"reservation_total": 571.68
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Mercedes-Benz E Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "E Class",
+						"sipp_code": "LDAR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Luxury",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/mercedes/2021-mercedes-benz-e-class-63-s-amg-4wd-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 630,
+							"reservation_total": 766.08
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group P - Volkswagen Golf or similar",
+						"make": "Volkswagen",
+						"model": "Golf",
+						"sipp_code": "CXMR",
+						"vehicle_class_code": "P",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/volkswagen/2021-volkswagen-golf-gti-se-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 246.64,
+							"reservation_total": 295.97
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "K9N",
+						"name": "London Victoria Coach & Rail",
+						"telephone": "(44) 03445448886",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "10-12 Semley Place",
+						"address_line_2": "Victoria",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW1W 9QL",
+						"country_code": "GB"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "K9N",
+						"name": "London Victoria Coach & Rail",
+						"telephone": "(44) 03445448886",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "10-12 Semley Place",
+						"address_line_2": "Victoria",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "SW1W 9QL",
+						"country_code": "GB"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/GB/K9N/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "37ed5941-a92f-400c-a428-8f0db3d52f04",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Monceau Dtn",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:54:57Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "87dbe3a0-95c9-4f98-a9d3-cd7f31394e1f"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 159.94,
+							"reservation_total": 159.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 185.42,
+							"reservation_total": 185.42
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 205.39,
+							"reservation_total": 205.39
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 314.58,
+							"reservation_total": 314.58
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Mercedes-Benz CLA or similar",
+						"make": "Mercedes-Benz",
+						"model": "CLA",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Intermediate Elite",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/mercedes/2020-mercedes-benz-cla-250-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 377.5,
+							"reservation_total": 377.5
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 308.29,
+							"reservation_total": 308.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 227.94,
+							"reservation_total": 227.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group M - Volvo XC60 or similar",
+						"make": "Volvo",
+						"model": "XC60",
+						"sipp_code": "LDAR",
+						"vehicle_class_code": "M",
+						"vehicle_class_name": "Premium SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/volvo/2019-volvo-xc60-inscription-t8-eawd-plug-in-hybrid-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 440.41,
+							"reservation_total": 440.41
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Toyota ProAce or similar",
+						"make": "Toyota",
+						"model": "ProAce",
+						"sipp_code": "PVMR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Full-Size Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2017/toyota/2017-toyota-proace-verso-combi-passenger-van-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "9",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "V2I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 667.27,
+							"reservation_total": 681.29
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 530.26,
+							"reservation_total": 530.26
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "PS6",
+						"name": "Paris Monceau Dtn",
+						"telephone": "(33) 1 47 66 55 80",
+						"hours": "Mon - Fri 8:00 AM - 6:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "34 Ave De Villiers 17th",
+						"address_line_2": "Park Monceau",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75017",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "PS6",
+						"name": "Paris Monceau Dtn",
+						"telephone": "(33) 1 47 66 55 80",
+						"hours": "Mon - Fri 8:00 AM - 6:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "34 Ave De Villiers 17th",
+						"address_line_2": "Park Monceau",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75017",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/PS6/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "2eab1397-a298-4509-85c3-1f9bcebd8adb",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Gare Montparnasse",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T14:54:52Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "a21bba15-9775-43a9-9eed-2c241edbde16"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 129,
+							"reservation_total": 154.8
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 157.4,
+							"reservation_total": 188.88
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 204.6,
+							"reservation_total": 245.52
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Mercedes-Benz CLA or similar",
+						"make": "Mercedes-Benz",
+						"model": "CLA",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Intermediate Elite",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/mercedes/2020-mercedes-benz-cla-250-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 400.21,
+							"reservation_total": 400.21
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "WZI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 157.4,
+							"reservation_total": 188.88
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 228.84,
+							"reservation_total": 228.84
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 390.67,
+							"reservation_total": 390.67
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "AE2",
+						"name": "Paris Gare Montparnasse",
+						"telephone": "(33) 8 20 00 61 00",
+						"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Hall 2 Pasteur",
+						"address_line_2": "5 Place Des Martyrs",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75014",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "AE2",
+						"name": "Paris Gare Montparnasse",
+						"telephone": "(33) 8 20 00 61 00",
+						"hours": "Sun 8:00 AM - 10:30 PM; Mon - Fri 7:00 AM - 9:30 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "Hall 2 Pasteur",
+						"address_line_2": "5 Place Des Martyrs",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75014",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/AE2/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "274b3545-425c-4aa6-9fde-71c30c388ee7",
+		"createdAt": "1692979928269",
+		"updatedAt": "1692979928269",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "London Euston St Pancras",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T16:10:56Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "6f29bcad-82c3-4565-9430-43e70216b8cc"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMR",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 388.84,
+							"reservation_total": 451.05
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 296.88,
+							"reservation_total": 344.38
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CBMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Crossover Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-2008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 297,
+							"reservation_total": 354.26
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Peugeot 3008 or similar",
+						"make": "Peugeot",
+						"model": "3008",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/peugeot/2021-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 330,
+							"reservation_total": 392.54
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Vauxhall Crossland or similar",
+						"make": "Vauxhall",
+						"model": "Crossland",
+						"sipp_code": "CGMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Compact SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/opel/2018-opel-grandland-x-innovation-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 297,
+							"reservation_total": 354.26
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group F - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "F",
+						"vehicle_class_name": "Standard Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 419.4,
+							"reservation_total": 496.25
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group G - Volkswagen Polo or similar",
+						"make": "Volkswagen",
+						"model": "Polo",
+						"sipp_code": "CWMR",
+						"vehicle_class_code": "G",
+						"vehicle_class_name": "Economy",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/volkswagen/2022-volkswagen-polo-gti-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 420.16,
+							"reservation_total": 497.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Skoda Octavia or similar",
+						"make": "Skoda",
+						"model": "Octavia",
+						"sipp_code": "SWMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Standard Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2020/skoda/2020-skoda-octavia-combi-rs-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 460.7,
+							"reservation_total": 544.16
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - MG ZS Auto or similar",
+						"make": "MG",
+						"model": "ZS Auto",
+						"sipp_code": "CDAR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Compact",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/etc/designs/avis/reservationlib/clientlib/images/image-unavailable.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 434.7,
+							"reservation_total": 514
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group J - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "IDAR",
+						"vehicle_class_code": "J",
+						"vehicle_class_name": "Standard",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 450,
+							"reservation_total": 531.74
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Mercedes-Benz C Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "C Class",
+						"sipp_code": "PDAR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Premium",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2022/mercedes/2022-mercedes-benz-c-class-c300-amg-line-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 468,
+							"reservation_total": 552.62
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group L - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVAR",
+						"vehicle_class_code": "L",
+						"vehicle_class_name": "Standard Van",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 1094.14,
+							"reservation_total": 1278.94
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group M - Mercedes-Benz A Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "A Class",
+						"sipp_code": "CCMR",
+						"vehicle_class_code": "M",
+						"vehicle_class_name": "Compact Elite",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2016/mercedes/2016-mercedes-benz-a-class-fascination-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 378.88,
+							"reservation_total": 439.5
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Mercedes-Benz E Class or similar",
+						"make": "Mercedes-Benz",
+						"model": "E Class",
+						"sipp_code": "LDAR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Luxury",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/mercedes/2021-mercedes-benz-e-class-63-s-amg-4wd-sedan-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "4",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 630,
+							"reservation_total": 740.54
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Peugeot 5008 or similar",
+						"make": "Peugeot",
+						"model": "5008",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/peugeot/2019-peugeot-5008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "UBI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 777.42,
+							"reservation_total": 911.56
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group P - Volkswagen Golf or similar",
+						"make": "Volkswagen",
+						"model": "Golf",
+						"sipp_code": "CXMR",
+						"vehicle_class_code": "P",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/volkswagen/2021-volkswagen-golf-gti-se-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "GBP",
+							"rate_code": "70I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 246.64,
+							"reservation_total": 286.1
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "LO6",
+						"name": "Euston St Pancras",
+						"telephone": "(44) 03445446061",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "88 Eversholt St",
+						"address_line_2": "Euston",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "NW1 1BP",
+						"country_code": "GB"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "LO6",
+						"name": "Euston St Pancras",
+						"telephone": "(44) 03445446061",
+						"hours": "Sun 8:00 AM - 1:00 PM; Mon - Thu 8:00 AM - 4:00 PM; Fri 8:00 AM - 7:00 PM; Sat 8:00 AM - 1:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "88 Eversholt St",
+						"address_line_2": "Euston",
+						"city": "London",
+						"state_name": "XX",
+						"postal_code": "NW1 1BP",
+						"country_code": "GB"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/GB/LO6/en_US"
+					}
+				]
+			}
+		}
+	},
+	{
+		"id": "0b7b793c-a9a3-4157-871a-7c8e5b7df035",
+		"createdAt": "1692979085502",
+		"updatedAt": "1692979085502",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"carsLocationID": "Paris Rail Station Du Nord",
+		"carsAvailable": {
+			"status": {
+				"request_time": "2023-08-25T15:56:38Z",
+				"success": [
+					{
+						"code": "200",
+						"message": "Success",
+						"details": "The vehicle availability was successfully retrieved."
+					}
+				]
+			},
+			"transaction": {
+				"transaction_id": "70e8206e-aee9-4330-9afc-ed15e22b90ed"
+			},
+			"product": {
+				"brand": "Avis"
+			},
+			"vehicles": [
+				{
+					"category": {
+						"name": "Group A - Fiat 500 or similar",
+						"make": "Fiat",
+						"model": "500",
+						"sipp_code": "MBMN",
+						"vehicle_class_code": "A",
+						"vehicle_class_name": "Mini Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500-pop-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "3",
+						"seats": "4",
+						"luggage_capacity": {}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group B - Peugeot 208 or similar",
+						"make": "Peugeot",
+						"model": "208",
+						"sipp_code": "ECMR",
+						"vehicle_class_code": "B",
+						"vehicle_class_name": "Economy Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/peugeot/2014-peugeot-208-allure-5door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 121,
+							"reservation_total": 145.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group C - Peugeot 2008 or similar",
+						"make": "Peugeot",
+						"model": "2008",
+						"sipp_code": "CDMR",
+						"vehicle_class_code": "C",
+						"vehicle_class_name": "Compact Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2018/peugeot/2018-peugeot-3008-allure-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 133,
+							"reservation_total": 159.6
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group D - Nissan Qashqai or similar",
+						"make": "Nissan",
+						"model": "Qashqai",
+						"sipp_code": "ICMR",
+						"vehicle_class_code": "D",
+						"vehicle_class_name": "Intermediate SUV Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2015/nissan/2015-nissan-qashqai-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 181,
+							"reservation_total": 217.2
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group E - Hyundai Tucson or similar",
+						"make": "Hyundai",
+						"model": "Tucson",
+						"sipp_code": "SDMR",
+						"vehicle_class_code": "E",
+						"vehicle_class_name": "Intermediate SUV",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-tucson-sel-4wd-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 209,
+							"reservation_total": 250.8
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group H - Ford Focus SW or similar",
+						"make": "Ford",
+						"model": "Focus SW",
+						"sipp_code": "IDMR",
+						"vehicle_class_code": "H",
+						"vehicle_class_name": "Compact Wagon Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/ford/2019-ford-focus-clipper-vignale-wagon-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "2",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 173,
+							"reservation_total": 207.6
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group I - Fiat 500 Electric or similar",
+						"make": "Fiat",
+						"model": "500 Electric",
+						"sipp_code": "EXMR",
+						"vehicle_class_code": "I",
+						"vehicle_class_name": "Mini Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2019/fiat/2019-fiat-500e-battery-electric-3door-hatchback-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "4",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 163.13,
+							"reservation_total": 163.13
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group K - Hyundai Kona Electric or similar",
+						"make": "Hyundai",
+						"model": "Kona Electric",
+						"sipp_code": "SVMR",
+						"vehicle_class_code": "K",
+						"vehicle_class_name": "Compact Electric",
+						"vehicle_transmission": "Automatic",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2021/hyundai/2021-hyundai-kona-ev-sky-suv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "5",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "2"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 218.82,
+							"reservation_total": 218.82
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group N - Toyota ProAce or similar",
+						"make": "Toyota",
+						"model": "ProAce",
+						"sipp_code": "PVMR",
+						"vehicle_class_code": "N",
+						"vehicle_class_name": "Full-Size Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2017/toyota/2017-toyota-proace-verso-combi-passenger-van-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "9",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "8OI",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 437,
+							"reservation_total": 524.4
+						}
+					}
+				},
+				{
+					"category": {
+						"name": "Group O - Renault Grand Scenic or similar",
+						"make": "Renault",
+						"model": "Grand Scenic",
+						"sipp_code": "FVMR",
+						"vehicle_class_code": "O",
+						"vehicle_class_name": "Standard Van Manual",
+						"vehicle_transmission": "Manual",
+						"image_url": "https://www.avis.com/content/dam/cars/l/2014/renault/2014-renault-scenic-bose-edition-mini-mpv-white.png"
+					},
+					"features": {
+						"bluetooth_equipped": false,
+						"air_conditioned": true,
+						"connected_car": false
+					},
+					"capacity": {
+						"doors": "5",
+						"seats": "7",
+						"luggage_capacity": {
+							"large_suitcase": "1",
+							"small_suitcase": "1"
+						}
+					},
+					"rate_totals": {
+						"rate": {
+							"currency": "EUR",
+							"rate_code": "Z6I",
+							"coupon_applied": false,
+							"under_age_fee_applied": false,
+							"coupon_discount_amount": 0
+						},
+						"pay_later": {
+							"vehicle_total": 377.9,
+							"reservation_total": 377.9
+						}
+					}
+				}
+			],
+			"reservation": {
+				"pickup_location": {
+					"location": {
+						"code": "AE4",
+						"name": "Paris Rail Station Du Nord",
+						"telephone": "(33) 8 20 61 16 24",
+						"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "03 Rue De Compiegne",
+						"address_line_2": "112 Rue De Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR"
+					}
+				},
+				"dropoff_location": {
+					"location": {
+						"code": "AE4",
+						"name": "Paris Rail Station Du Nord",
+						"telephone": "(33) 8 20 61 16 24",
+						"hours": "Sun 8:00 AM - 8:00 PM; Mon - Fri 7:00 AM - 9:00 PM; Sat 7:00 AM - 7:00 PM",
+						"airport_location": false
+					},
+					"address": {
+						"address_line_1": "03 Rue De Compiegne",
+						"address_line_2": "112 Rue De Maubeuge",
+						"city": "Paris",
+						"state_name": "XX",
+						"postal_code": "75010",
+						"country_code": "FR"
+					}
+				},
+				"terms": [
+					{
+						"type": "location",
+						"method": "GET",
+						"endpoint": "https://stage.abgapiservices.com/terms/v1/location/Avis/FR/AE4/en_US"
+					}
+				]
+			}
+		}
+	}
+]

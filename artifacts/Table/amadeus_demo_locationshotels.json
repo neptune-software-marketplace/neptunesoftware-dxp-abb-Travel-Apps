@@ -1,0 +1,31 @@
+{
+	"id": "fcb3c57c-a42f-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-31T13:16:44.116Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "256f7bdd-5f21-46bd-9882-5ede7a839400",
+			"fieldName": "location",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a31be4de-9e35-4531-ffd0-fb0f53fe644e",
+			"fieldName": "hotelsAvailable",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "amadeus_demo_locationshotels",
+	"description": null,
+	"ver": "24.05.08.0908",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
+	"rolesRead": [],
+	"rolesWrite": []
+}

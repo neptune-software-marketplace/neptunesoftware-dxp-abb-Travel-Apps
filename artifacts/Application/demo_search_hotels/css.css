@@ -1,0 +1,50 @@
+.TotalPrice{
+    border-color: #00A1C1;
+    border-width: medium;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.sapMIBar.sapMHeader-CTX {
+    color: #666769;
+    height: 3.5rem;
+    padding-top: 10px;
+    
+}
+.sapMSplitContainerMaster {
+    width: 25rem !important;
+}
+
+.smallText{
+    font-size: small;
+}
+.listContainer{
+    padding: 10px;
+    margin: 10px;
+   
+}
+.sapMShellCentralBox {
+    position: revert;
+}
+.ratingBtn{
+    background-color: #304552;
+}
+.smallerBox{
+    border: 1px solid;
+    border-color: rgb(134, 121, 121);
+    padding: 0.7rem 2.5rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+@media (min-width: 1280px){
+html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: 0px; 
+
+    background-color: rgba(255,255,255,0.3);
+}
+}

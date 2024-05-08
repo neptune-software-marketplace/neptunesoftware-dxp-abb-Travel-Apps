@@ -1,0 +1,100 @@
+var values = {};
+values.avis = oCBAvis.getSelected();
+values.budget = oCBBudget.getSelected();
+values.payless = oCBPayless.getSelected();
+
+var pickupdateraw = oDateTimePickerPickup.mProperties.value;
+var dropoffdateraw = oDateTimePickerDropoff.mProperties.value;
+
+var parsedPickupDate = isFutureDate(pickupdateraw)
+var parsedDropoffDate = isFutureDate(dropoffdateraw)
+//console.log("Parsed pickupdate: ",parsedPickupDate);
+//console.log("Parsed dropoffDate: ",parsedDropoffDate);
+var today = new Date().getTime();
+//console.log("NOW: ",today);
+
+
+//Validate Inputs
+var error = false;
+// if (oInputSLocationKey.getValue().length === 0) {
+//     oInputSLocation.setValueState(sap.ui.core.ValueState.Error);
+//     sap.m.MessageToast.show("Location not identified. Please try again");
+//     return;
+// }
+if (values.avis===false && values.budget===false && values.payless===false) {
+    oCBAvis.setValueState(sap.ui.core.ValueState.Error);
+    oCBBudget.setValueState(sap.ui.core.ValueState.Error);
+    oCBPayless.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please select at least one brand...");
+    return;
+}
+
+//console.log(oDateTimePickerPickup.getValue());
+if (oDateTimePickerPickup.getValue() === "") {
+    oDateTimePickerPickup.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please select a Pickup date...");
+    return;
+}
+if (oDateTimePickerDropoff.getValue() === "") {
+    oDateTimePickerDropoff.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please select a Dropoff date...");
+    return;
+}
+
+if (parsedPickupDate - today < 0) {
+    oDateTimePickerPickup.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please select a Pickup date in the future...");
+    return;
+}
+if (parsedDropoffDate - today < 0) {
+    oDateTimePickerDropoff.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please select a Dropoff date in the future...");
+    return;
+}
+if (parsedPickupDate - parsedDropoffDate > 0) {
+    oDateTimePickerPickup.setValueState(sap.ui.core.ValueState.Error);
+    oDateTimePickerDropoff.setValueState(sap.ui.core.ValueState.Error);
+    sap.m.MessageToast.show("Please ensure Dropoff date is after the Pickup date...");
+    return;
+}
+
+if (error) {
+    sap.m.MessageToast.show("Please complete all required fields...");
+    return;
+}
+
+//Set dates for final page
+var pickupDate = oDateTimePickerPickup.getValue();
+var dropoffDate = oDateTimePickerDropoff.getValue();
+oTextVehicleRatePickupSelection.setText(pickupDate);
+oTextVehicleRateDropoffSelection.setText(dropoffDate);
+
+//Geocode location
+// var geocodeKey = getConfigValueAvis('OpenCageDataGeocodeKey')
+
+// var options = {
+//     parameters: {
+//         "q": oInputSLocation.getValue(), // Required 
+//         "key": geocodeKey // Required 
+//     }
+// };
+
+
+// apioAPIGeoCode(options);
+// //apioRestAPIGeoCode2(options);
+
+//Search triggered from this api
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({where: oInputSLocation.getSelectedKey()}), // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+
+apioAPICarHireLocations(options);
+
+oApp.setBusy(true);

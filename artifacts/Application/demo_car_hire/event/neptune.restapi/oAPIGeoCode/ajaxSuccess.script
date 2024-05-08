@@ -1,0 +1,72 @@
+//console.log("Geocode Location called...");
+
+var dat = modeloMultiModelGeocodedLocation.oData.results;
+//console.log(dat);
+
+var latlong = [];
+
+//Iterate through model, extracting lat + lng
+for (i = 0; i < 1; i++) {
+    //var obj = {};
+    //obj.lat = dat[i].geometry.lat,
+    //obj.long = dat[i].geometry.lng;
+    //latlong.push(obj);
+    //console.log("obj =",obj);
+    
+    var lat = dat[i].geometry.lat
+    var long = dat[i].geometry.lng;
+}
+
+
+
+var values = {};
+values.avis = oCBAvis.getSelected();
+values.budget = oCBBudget.getSelected();
+values.payless = oCBPayless.getSelected();
+//console.log(values)
+
+var avisString = ""
+var budgetString = ""
+var paylessString = ""
+
+if (values.avis===true) {
+    var avisString = "Avis,"
+}
+if (values.budget===true) {
+    var budgetString = "Budget,"
+}
+if (values.payless===true) {
+    var paylessString = "Payless,"
+}
+
+var valueSubmission = avisString.concat(budgetString, paylessString);
+valueSubmission = valueSubmission.substring(0, valueSubmission.length - 1);
+//console.log("valueSubmission:", valueSubmission);
+//console.log("lat + lng:", lat, long);
+
+//Call main search API with brand + latlong
+dataClientID = getConfigValueAvis("AvisClientId");
+var dataAuthToken = modeloMultiModelSearchToken.getData();
+var dataAuthTokenExtract = ("Bearer " + dataAuthToken.access_token);
+
+//console.log("dataClientID:", dataClientID);
+//console.log("dataAuthToken:",  dataAuthTokenExtract);
+
+var options1 = {
+    headers: {
+        "client_id": dataClientID, // Required. 
+        "authorization": dataAuthTokenExtract// Required. 
+    },
+    parameters: {
+        "brand": valueSubmission, 
+        "lat": lat, 
+        "long": long 
+    }
+};
+
+//console.log("APICarLocation called...");
+
+//reset model
+modeloMultiModelCarLocations.oData = "";
+
+apioAPICarLocation(options1);
